@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/home4.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/js/carousel/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/js/carousel/owlcarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <script src="assets/js/fontawesome.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@600&display=swap" rel="stylesheet">
+    <link href="assets/css/accordion/main.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/grid_view_1.css" rel="stylesheet">
+    <link href="assets/css/aos.css" rel="stylesheet">
+    <meta charset="utf-8" />
+</head>
+
+<body>
+    <div id="page-content">
+        <div class="header">
+            <div>
+                <a href="#">
+                    <i style="color:white;font-size:20px" class="fa fa-facebook-square" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <i style="color:white;font-size:20px" class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <i style="color:white;font-size:20px" class="fa fa-pinterest" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div>
+                <a href="about.html"> About Us </a>
+            </div>
+            <div>
+                <a href="contact.html"> Contact Us </a>
+            </div>
+        </div>
+        <nav style="display: flex; justify-content: space-around;z-index: 1000;padding: 20px 0px 20px 0px;width: 100%;">
+            <div class="open_main_menu_side" style="cursor: pointer;"><img class="nav_icons"
+                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDYxMiA2MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoJPGcgaWQ9Im1lbnUiPgoJCTxnPgoJCQk8cGF0aCBkPSJNMCw5NS42MjV2MzguMjVoNjEydi0zOC4yNUgweiBNMCwzMjUuMTI1aDYxMnYtMzguMjVIMFYzMjUuMTI1eiBNMCw1MTYuMzc1aDYxMnYtMzguMjVIMFY1MTYuMzc1eiIgZmlsbD0iIzAwMDAwMCIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiI+PC9wYXRoPgoJCTwvZz4KCTwvZz4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8L2c+PC9zdmc+" />
+            </div>
+            <div class="logo_block_home3">
+                <a href="index.html">
+                    <img class="logo_other" src="assets/img/logo.svg" alt="">
+                </a>
+            </div>
+            <div class="search_part_block">
+                <div>
+                    <img class="nav_icons open_search_box"
+                        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoJPGc+CgkJPHBhdGggZD0iTTUwOC44NzUsNDkzLjc5MkwzNTMuMDg5LDMzOC4wMDVjMzIuMzU4LTM1LjkyNyw1Mi4yNDUtODMuMjk2LDUyLjI0NS0xMzUuMzM5QzQwNS4zMzMsOTAuOTE3LDMxNC40MTcsMCwyMDIuNjY3LDAgICAgUzAsOTAuOTE3LDAsMjAyLjY2N3M5MC45MTcsMjAyLjY2NywyMDIuNjY3LDIwMi42NjdjNTIuMDQzLDAsOTkuNDExLTE5Ljg4NywxMzUuMzM5LTUyLjI0NWwxNTUuNzg2LDE1NS43ODYgICAgYzIuMDgzLDIuMDgzLDQuODEzLDMuMTI1LDcuNTQyLDMuMTI1YzIuNzI5LDAsNS40NTgtMS4wNDIsNy41NDItMy4xMjVDNTEzLjA0Miw1MDQuNzA4LDUxMy4wNDIsNDk3Ljk1OCw1MDguODc1LDQ5My43OTJ6ICAgICBNMjAyLjY2NywzODRjLTk5Ljk3OSwwLTE4MS4zMzMtODEuMzQ0LTE4MS4zMzMtMTgxLjMzM1MxMDIuNjg4LDIxLjMzMywyMDIuNjY3LDIxLjMzM1MzODQsMTAyLjY3NywzODQsMjAyLjY2NyAgICBTMzAyLjY0NiwzODQsMjAyLjY2NywzODR6IiBmaWxsPSIjMDAwMDAwIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIj48L3BhdGg+Cgk8L2c+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPC9nPjwvc3ZnPg==" />
+                </div>
+                <div>
+                    <a href="login_single.html">
+                        <img class="nav_icons"
+                            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDUxMy4zMjMgNTEzLjMyMyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PGc+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+Cgk8Zz4KCQk8cGF0aCBkPSJNMjU2LjY2MSwyNTcuMzIzYy0xMzUuMjc1LDAtMjQ1LjMzMywxMTAuMDU5LTI0NS4zMzMsMjQ1LjMzM2MwLDUuODg4LDQuNzc5LDEwLjY2NywxMC42NjcsMTAuNjY3ICAgIHMxMC42NjctNC43NzksMTAuNjY3LTEwLjY2N2MwLTEyMy41MiwxMDAuNDgtMjI0LDIyNC0yMjRzMjI0LDEwMC40OCwyMjQsMjI0YzAsNS44ODgsNC43NzksMTAuNjY3LDEwLjY2NywxMC42NjcgICAgYzUuODg4LDAsMTAuNjY3LTQuNzc5LDEwLjY2Ny0xMC42NjdDNTAxLjk5NSwzNjcuMzYsMzkxLjkzNiwyNTcuMzIzLDI1Ni42NjEsMjU3LjMyM3oiIGZpbGw9IiMwMDAwMDAiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIHN0eWxlPSIiPjwvcGF0aD4KCTwvZz4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoJPGc+CgkJPHBhdGggZD0iTTI1Ni42NjEsMGMtNjQuNjgzLDAtMTE3LjMzMyw1Mi42MjktMTE3LjMzMywxMTcuMzMzczUyLjY1MSwxMTcuMzMzLDExNy4zMzMsMTE3LjMzM3MxMTcuMzMzLTUyLjYyOSwxMTcuMzMzLTExNy4zMzMgICAgUzMyMS4zNDQsMCwyNTYuNjYxLDB6IE0yNTYuNjYxLDIxMy4zMzNjLTUyLjkyOCwwLTk2LTQzLjA3Mi05Ni05NnM0My4wNzItOTYsOTYtOTZjNTIuOTI4LDAsOTYsNDMuMDcyLDk2LDk2ICAgIFMzMDkuNTg5LDIxMy4zMzMsMjU2LjY2MSwyMTMuMzMzeiIgZmlsbD0iIzAwMDAwMCIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiI+PC9wYXRoPgoJPC9nPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjwvZz48L3N2Zz4=" />
+                    </a>
+                </div>
+                <div>
+                    <a href="cart_1.html">
+                        <img class="nav_icons"
+                            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQ3MiA0NTJjMCAxMS4wNDYtOC45NTQgMjAtMjAgMjBoLTIwdjIwYzAgMTEuMDQ2LTguOTU0IDIwLTIwIDIwcy0yMC04Ljk1NC0yMC0yMHYtMjBoLTIwYy0xMS4wNDYgMC0yMC04Ljk1NC0yMC0yMHM4Ljk1NC0yMCAyMC0yMGgyMHYtMjBjMC0xMS4wNDYgOC45NTQtMjAgMjAtMjBzMjAgOC45NTQgMjAgMjB2MjBoMjBjMTEuMDQ2IDAgMjAgOC45NTQgMjAgMjB6bTAtMzEydjE5MmMwIDExLjA0Ni04Ljk1NCAyMC0yMCAyMHMtMjAtOC45NTQtMjAtMjB2LTE3MmgtNDB2NjBjMCAxMS4wNDYtOC45NTQgMjAtMjAgMjBzLTIwLTguOTU0LTIwLTIwdi02MGgtMTkydjYwYzAgMTEuMDQ2LTguOTU0IDIwLTIwIDIwcy0yMC04Ljk1NC0yMC0yMHYtNjBoLTQwdjMxMmgyMTJjMTEuMDQ2IDAgMjAgOC45NTQgMjAgMjBzLTguOTU0IDIwLTIwIDIwaC0yMzJjLTExLjA0NiAwLTIwLTguOTU0LTIwLTIwdi0zNTJjMC0xMS4wNDYgOC45NTQtMjAgMjAtMjBoNjAuOTQ2YzcuOTQ1LTY3LjQ3NyA2NS40NzctMTIwIDEzNS4wNTQtMTIwczEyNy4xMDkgNTIuNTIzIDEzNS4wNTQgMTIwaDYwLjk0NmMxMS4wNDYgMCAyMCA4Ljk1NCAyMCAyMHptLTEyMS4zNDEtMjBjLTcuNjQtNDUuMzQ1LTQ3LjE3Ni04MC05NC42NTktODBzLTg3LjAxOSAzNC42NTUtOTQuNjU5IDgweiIgZmlsbD0iIzAwMDAwMCIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiI+PC9wYXRoPjwvZz48L2c+PC9zdmc+" />
+                        <span class="numbers_heart">0</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="wishlist.html">
+                        <img class="nav_icons"
+                            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDQ4MCA0ODAiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnPjxwYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZD0ibTM0OCAwYy00MyAuMDY2NDA2Mi04My4yODEyNSAyMS4wMzkwNjItMTA4IDU2LjIyMjY1Ni0yNC43MTg3NS0zNS4xODM1OTQtNjUtNTYuMTU2MjQ5OC0xMDgtNTYuMjIyNjU2LTcwLjMyMDMxMiAwLTEzMiA2NS40MjU3ODEtMTMyIDE0MCAwIDcyLjY3OTY4OCA0MS4wMzkwNjIgMTQ3LjUzNTE1NiAxMTguNjg3NSAyMTYuNDgwNDY5IDM1Ljk3NjU2MiAzMS44ODI4MTIgNzUuNDQxNDA2IDU5LjU5NzY1NiAxMTcuNjQwNjI1IDgyLjYyNSAyLjMwNDY4NyAxLjE4NzUgNS4wMzkwNjMgMS4xODc1IDcuMzQzNzUgMCA0Mi4xODM1OTQtMjMuMDI3MzQ0IDgxLjYzNjcxOS01MC43NDYwOTQgMTE3LjYwMTU2My04Mi42MjUgNzcuNjg3NS02OC45NDUzMTMgMTE4LjcyNjU2Mi0xNDMuODAwNzgxIDExOC43MjY1NjItMjE2LjQ4MDQ2OSAwLTc0LjU3NDIxOS02MS42Nzk2ODgtMTQwLTEzMi0xNDB6bS0xMDggNDIyLjkwMjM0NGMtMjkuMzgyODEyLTE2LjIxNDg0NC0yMjQtMTI5LjQ5NjA5NC0yMjQtMjgyLjkwMjM0NCAwLTY2LjA1NDY4OCA1NC4xOTkyMTktMTI0IDExNi0xMjQgNDEuODY3MTg4LjA3NDIxOSA4MC40NjA5MzggMjIuNjYwMTU2IDEwMS4wMzEyNSA1OS4xMjg5MDYgMS41MzkwNjIgMi4zNTE1NjMgNC4xNjAxNTYgMy43NjU2MjUgNi45Njg3NSAzLjc2NTYyNXM1LjQyOTY4OC0xLjQxNDA2MiA2Ljk2ODc1LTMuNzY1NjI1YzIwLjU3MDMxMi0zNi40Njg3NSA1OS4xNjQwNjItNTkuMDU0Njg3IDEwMS4wMzEyNS01OS4xMjg5MDYgNjEuODAwNzgxIDAgMTE2IDU3Ljk0NTMxMiAxMTYgMTI0IDAgMTUzLjQwNjI1LTE5NC42MTcxODggMjY2LjY4NzUtMjI0IDI4Mi45MDIzNDR6bTAgMCIgZmlsbD0iIzAwMDAwMCIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiIgY2xhc3M9IiI+PC9wYXRoPjwvZz48L3N2Zz4=" />
+                        <span class="numbers_heart">0</span>
+                    </a>
+
+                </div>
+            </div>
+            <!-- MAIN MENU-->
+            <div class="sidebar_main_menu">
+                <div class="container menu_show_for_computer">
+                    <div class="row">
+                        <div class="col-lg-11">
+                            <ul class="main_menu_ul d-flex justify-content-between ">
+                                <li class="d-flex justify-content-between li_links_main_menu_ul">
+                                    <a href="#">Home</a>
+                                    <ul class="sub_menu_main_menu_ul container">
+                                        <ul class="row">
+                                            <li class="col-lg-3">
+                                                <a href="#">Home Pages</a>
+                                                <ul class="sub_menu_links_menu_main_menu">
+                                                    <li><a href="index.html">Home 1</a></li>
+                                                    <li><a href="home5.html">Home 2</a></li>
+                                                    <li><a href="home6.html">Home 3</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="col-lg-3">
+                                                <a href="#">Header Layout</a>
+                                                <ul class="sub_menu_links_menu_main_menu">
+                                                    <li><a href="index.html">Header v1</a></li>
+                                                    <li><a href="home5.html">Header v2</a></li>
+                                                    <li><a href="home6.html">Header v3</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="col-lg-3">
+                                                <a href="#">Home Options</a>
+                                                <ul class="sub_menu_links_menu_main_menu">
+                                                    <li><a href="home6.html">Modal Popup</a></li>
+                                                    <li><a href="home5.html">Header Without Stick</a></li>
+                                                    <li><a href="home6.html">Header Stick 1</a></li>
+                                                    <li><a href="index.html">Header Stick 2</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="col-lg-3">
+                                                <a href="#">
+                                                    <div class="parent_to_up">
+                                                        <img class="child_to_up"
+                                                            src="https://images.unsplash.com/photo-1609535766106-0864edad28e4?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8bmlrZSUyMHNob2VzfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                                                            alt="">
+                                                    </div>
+                                                    <p class="mt-2" style="font-size:13px">Lookbook: Seasonal sneakers
+                                                    </p>
+                                                    <button onclick="window.location.href='#'"
+                                                        class="btn_carou_buy_now_big btn_by_now_simple black_on_small">
+                                                        <span class="ml-2">
+                                                            By Now</span> <i style="color:white;"
+                                                            class="fas fa-arrow-right ml-2"
+                                                            aria-hidden="true"></i></button>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </ul>
+                                </li>
+                                <li class="d-flex justify-content-between li_links_main_menu_ul">
+                                    <a href="#">Shop</a>
+                                    <ul class="sub_menu_main_menu_ul container">
+                                        <ul class="row">
+                                            <li class="col-lg-3">
+                                                <a href="#">Catalog</a>
+                                                <ul class="sub_menu_links_menu_main_menu">
+                                                    <li><a href="grid_view_1.html">Style 1</a></li>
+                                                    <li><a href="grid_view_2.html">Style 2</a></li>
+                                                    <li><a href="grid_view_3.html">Style 3</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="col-lg-3">
+                                                <a href="#">Cart & Whislis</a>
+                                                <ul class="sub_menu_links_menu_main_menu">
+                                                    <li><a href="cart_1.html">Cart 1</a></li>
+                                                    <li><a href="cart_2.html">Cart 2</a></li>
+                                                    <li><a href="cart_3.html">Cart 3</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="col-lg-3">
+                                                <a href="#">Checkout & Validation</a>
+                                                <ul class="sub_menu_links_menu_main_menu">
+                                                    <li><a href="checkout_road_1.html">Checkout Road 1</a></li>
+                                                    <li><a href="checkout_road_2.html">Checkout Road 2</a></li>
+                                                    <li><a href="checkout_road_3.html">Checkout Road 3</a></li>
+                                                    <li><a href="checkout_road_4.html">Checkout Road 4</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="col-lg-3">
+                                                <a href="#">
+                                                    <div class="parent_to_up">
+                                                        <img class="child_to_up"
+                                                            src="https://images.unsplash.com/photo-1610371335313-a69c45999f0c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8bmlrZSUyMHNob2VzfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                                                            alt="">
+                                                    </div>
+                                                    <p class="mt-2" style="font-size:13px">Lookbook: Seasonal sneakers
+                                                    </p>
+                                                    <button onclick="window.location.href='#'"
+                                                        class="btn_carou_buy_now_big btn_by_now_simple black_on_small">
+                                                        <span class="ml-2">
+                                                            By Now</span> <i style="color:white;"
+                                                            class="fas fa-arrow-right ml-2"
+                                                            aria-hidden="true"></i></button>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </ul>
+                                </li>
+                                <li class="d-flex justify-content-between li_links_main_menu_ul">
+                                    <a href="#">Product & Other Pages</a>
+                                    <ul class="sub_menu_main_menu_ul container">
+                                        <ul class="row">
+                                            <li class="col-lg-3">
+                                                <a href="#">Product Types</a>
+                                                <ul class="sub_menu_links_menu_main_menu">
+                                                    <li><a href="product-detail.html">Product Pages 1</a></li>
+                                                    <li><a href="product-detail_2.html">Product Pages 3</a></li>
+                                                    <li><a href="product-detail_3.html">Product Pages 3</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="col-lg-3">
+                                                <a href="#">Other Pages</a>
+                                                <ul class="sub_menu_links_menu_main_menu">
+                                                    <li><a href="about.html">About</a></li>
+                                                    <li><a href="contact.html">Contact</a></li>
+                                                    <li><a href="login_single.html">Login Single</a></li>
+                                                    <li><a href="register_single.html">Register Single</a></li>
+                                                    <li><a href="my_account.html">My Account</a></li>
+                                                    <li><a href="404.html">Not found Page</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="col-lg-3">
+                                                <a href="#">
+                                                    <div class="parent_to_up">
+                                                        <img class="child_to_up"
+                                                            src="https://images.unsplash.com/photo-1592771404380-467f535c7c4f?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjB8fG5pa2UlMjBzaG9lc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                                                            alt="">
+                                                    </div>
+                                                    <p class="mt-2" style="font-size:13px">Lookbook: Seasonal sneakers
+                                                    </p>
+                                                    <button onclick="window.location.href='#'"
+                                                        class="btn_carou_buy_now_big btn_by_now_simple black_on_small">
+                                                        <span class="ml-2">
+                                                            By Now</span> <i style="color:white;"
+                                                            class="fas fa-arrow-right ml-2"
+                                                            aria-hidden="true"></i></button>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </ul>
+                                </li>
+                                <li class="d-flex justify-content-between li_links_main_menu_ul">
+                                    <a href="#">Blog</a>
+                                    <ul class="sub_menu_main_menu_ul container">
+                                        <ul class="row">
+                                            <li class="col-lg-3">
+                                                <a href="#">Blog Pages</a>
+                                                <ul class="sub_menu_links_menu_main_menu">
+                                                    <li><a href="blog_classic.html">Classic Simple</a></li>
+                                                    <li><a href="blog_classic-side-bar.html">Classic With Side Bar</a>
+                                                    </li>
+                                                    <li><a href="blog_grid.html">Blog Grid</a></li>
+                                                    <li><a href="blog_list.html">Blog List</a></li>
+                                                    <li><a href="blog_single.html">Blog single simple</a></li>
+                                                    <li><a href="blog_single_side.html">Blog single With Side Bar</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+
+                                            <li class="col-lg-3">
+                                                <a href="#">
+                                                    <div class="parent_to_up">
+                                                        <img class="child_to_up" src="assets/img/latest_1.jpg" alt="">
+                                                    </div>
+                                                    <p class="mt-2" style="font-size:13px">Lookbook: Seasonal sneakers
+                                                    </p>
+                                                    <button onclick="window.location.href='#'"
+                                                        class="btn_carou_buy_now_big btn_by_now_simple black_on_small">
+                                                        <span class="ml-2">
+                                                            By Now</span> <i style="color:white;"
+                                                            class="fas fa-arrow-right ml-2"
+                                                            aria-hidden="true"></i></button>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-1 mt-3" style="cursor: pointer;"><span
+                                class="close close_main_menu text-right" style="font-size: 30px;">&times;</span></div>
+                    </div>
+                </div>
+                <div class="container menu_show_for_phone_tablette">
+                    <div class="row mt-3">
+                        <div class="col-10">
+                            <p class="mt-2 upper cart_color_solo">Menu</p>
+                        </div>
+                        <div class="col-2" style="cursor: pointer;"><span class="close close_main_menu text-right"
+                                style="font-size: 30px;">&times;</span></div>
+                    </div>
+
+                    <div class="accordion_parent">
+                        <div class="accordion_title row">
+                            <span class="col-lg-11 cart_color_solo col-sm-11 col-10 ml-3">Home</span>
+                            <strong class="plus_signe_accordion"><i style="font-size:20px"
+                                    class="fas text-center fa-plus" aria-hidden="true"></i></strong>
+                        </div>
+                        <div class="accordion_child complemention container ">
+                            <div class="accordion_parent sub_for_menu_add">
+                                <div class="accordion_title row">
+                                    <span class="col-lg-11 cart_color_solo col-sm-11 col-10 ml-3">Home Pages</span>
+                                    <strong class="plus_signe_accordion"><i style="font-size:20px"
+                                            class="fas text-center fa-plus" aria-hidden="true"></i></strong>
+                                </div>
+                                <div class="accordion_child complemention container ">
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="index.html">Home 1</a></div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="home5.html">Home 2</a></div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="home6.html">Home 3</a></div>
+                                </div>
+                            </div>
+                            <div class="accordion_parent sub_for_menu_add">
+                                <div class="accordion_title row">
+                                    <span class="col-lg-11 cart_color_solo col-sm-11 col-10 ml-3">Header Layout</span>
+                                    <strong class="plus_signe_accordion"><i style="font-size:20px"
+                                            class="fas text-center fa-plus" aria-hidden="true"></i></strong>
+                                </div>
+                                <div class="accordion_child complemention container ">
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="index.html">Header V1</a>
+                                    </div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="home5.html">Header V2</a>
+                                    </div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="home6.html">Header V3</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion_parent sub_for_menu_add">
+                                <div class="accordion_title row">
+                                    <span class="col-lg-11 cart_color_solo col-sm-11 col-10 ml-3">Home Options</span>
+                                    <strong class="plus_signe_accordion"><i style="font-size:20px"
+                                            class="fas text-center fa-plus" aria-hidden="true"></i></strong>
+                                </div>
+                                <div class="accordion_child complemention container ">
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="home6.html">Modal Popup</a>
+                                    </div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="home5.html">Header Whithout
+                                            Stciky</a>
+                                    </div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="index.html">Header
+                                            Stciky1</a></div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="home6.html">Header
+                                            Stciky2</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="accordion_parent">
+                        <div class="accordion_title row">
+                            <span class="col-lg-11 cart_color_solo col-sm-11 col-10 ml-3">Shop</span>
+                            <strong class="plus_signe_accordion"><i style="font-size:20px"
+                                    class="fas text-center fa-plus" aria-hidden="true"></i></strong>
+                        </div>
+                        <div class="accordion_child complemention container">
+                            <div class="accordion_parent sub_for_menu_add">
+                                <div class="accordion_title row">
+                                    <span class="col-lg-11 cart_color_solo col-sm-11 col-10 ml-3">Catalog</span>
+                                    <strong class="plus_signe_accordion"><i style="font-size:20px"
+                                            class="fas text-center fa-plus" aria-hidden="true"></i></strong>
+                                </div>
+                                <div class="accordion_child complemention container">
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="grid_view_1.html">Style
+                                            1</a></div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="grid_view_2.html">Style
+                                            2</a></div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="grid_view_3.html">Style
+                                            3</a></div>
+                                </div>
+                            </div>
+                            <div class="accordion_parent sub_for_menu_add">
+                                <div class="accordion_title row">
+                                    <span class="col-lg-11 cart_color_solo col-sm-11 col-10 ml-3">Cart &
+                                        Whishlist</span>
+                                    <strong class="plus_signe_accordion"><i style="font-size:20px"
+                                            class="fas text-center fa-plus" aria-hidden="true"></i></strong>
+                                </div>
+                                <div class="accordion_child complemention container ">
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="cart_1.html">Cart 1</a>
+                                    </div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="cart_2.html">Cart 2</a>
+                                    </div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="cart_3.html">Cart 3</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion_parent sub_for_menu_add">
+                                <div class="accordion_title row">
+                                    <span class="col-lg-11 cart_color_solo col-sm-11 col-10 ml-3">Checkout &
+                                        Validationi</span>
+                                    <strong class="plus_signe_accordion"><i style="font-size:20px"
+                                            class="fas text-center fa-plus" aria-hidden="true"></i></strong>
+                                </div>
+                                <div class="accordion_child complemention container ">
+                                    <div class="mt-2"><a class="cart_color_solo ml-5"
+                                            href="checkout_road_1.html">Checkout Road 1</a></div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5"
+                                            href="checkout_road_2.html">Checkout Road 2</a></div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5"
+                                            href="checkout_road_3.html">Checkout Road 3</a></div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5"
+                                            href="checkout_road_4.html">Checkout Road 4</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="accordion_parent">
+                        <div class="accordion_title row">
+                            <span class="col-lg-11 cart_color_solo col-sm-11 col-10 ml-3">Product & Other Pages</span>
+                            <strong class="plus_signe_accordion"><i style="font-size:20px"
+                                    class="fas text-center fa-plus" aria-hidden="true"></i></strong>
+                        </div>
+                        <div class="accordion_child complemention container">
+                            <div class="accordion_parent sub_for_menu_add">
+                                <div class="accordion_title row">
+                                    <span class="col-lg-11 cart_color_solo col-sm-11 col-10 ml-3">Product Types</span>
+                                    <strong class="plus_signe_accordion"><i style="font-size:20px"
+                                            class="fas text-center fa-plus" aria-hidden="true"></i></strong>
+                                </div>
+                                <div class="accordion_child complemention container">
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="product-detail.html">Product
+                                            Pages 1</a></div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5"
+                                            href="product-detail_2.html">Product Pages 2</a></div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5"
+                                            href="product-detail_3.html">Product Pages 3</a></div>
+                                </div>
+                            </div>
+                            <div class="accordion_parent sub_for_menu_add">
+                                <div class="accordion_title row">
+                                    <span class="col-lg-11 cart_color_solo col-sm-11 col-10 ml-3">Other Pages</span>
+                                    <strong class="plus_signe_accordion"><i style="font-size:20px"
+                                            class="fas text-center fa-plus" aria-hidden="true"></i></strong>
+                                </div>
+                                <div class="accordion_child complemention container ">
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="about.html">About</a></div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="contact.html">Contact</a>
+                                    </div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="login_single.html">Login
+                                            Single</a></div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5"
+                                            href="register_single.html">Register Single</a></div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="my_account.html">My
+                                            Account</a></div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="404.html">Not Found Page</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="accordion_parent">
+                        <div class="accordion_title row">
+                            <span class="col-lg-11 cart_color_solo col-sm-11 col-10 ml-3">Blog</span>
+                            <strong class="plus_signe_accordion"><i style="font-size:20px"
+                                    class="fas text-center fa-plus" aria-hidden="true"></i></strong>
+                        </div>
+                        <div class="accordion_child complemention container">
+                            <div class="accordion_parent sub_for_menu_add">
+                                <div class="accordion_title row">
+                                    <span class="col-lg-11 cart_color_solo col-sm-11 col-10 ml-3">Blog Pages</span>
+                                    <strong class="plus_signe_accordion"><i style="font-size:20px"
+                                            class="fas text-center fa-plus" aria-hidden="true"></i></strong>
+                                </div>
+                                <div class="accordion_child complemention container">
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="blog_classic.html">Classic
+                                            Simple</a></div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5"
+                                            href="blog_classic-side-bar.html">Classic With Side Bar</a>
+                                    </div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="blog_grid.html">Blog
+                                            Grid</a></div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="blog_list.html">Blog
+                                            List</a></div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="blog_single.html">Blog
+                                            single simple</a>
+                                    </div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="blog_single_side.html">Blog
+                                            single With Side
+                                            Bar</a></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row mt-3">
+                        <div class="col-10">
+                            <p class="mt-2 upper cart_color_solo cart_color">Login</p>
+                        </div>
+                        <div class="col-2" style="cursor: pointer;"><img class="nav_icons"
+                                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDUxMy4zMjMgNTEzLjMyMyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PGc+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+Cgk8Zz4KCQk8cGF0aCBkPSJNMjU2LjY2MSwyNTcuMzIzYy0xMzUuMjc1LDAtMjQ1LjMzMywxMTAuMDU5LTI0NS4zMzMsMjQ1LjMzM2MwLDUuODg4LDQuNzc5LDEwLjY2NywxMC42NjcsMTAuNjY3ICAgIHMxMC42NjctNC43NzksMTAuNjY3LTEwLjY2N2MwLTEyMy41MiwxMDAuNDgtMjI0LDIyNC0yMjRzMjI0LDEwMC40OCwyMjQsMjI0YzAsNS44ODgsNC43NzksMTAuNjY3LDEwLjY2NywxMC42NjcgICAgYzUuODg4LDAsMTAuNjY3LTQuNzc5LDEwLjY2Ny0xMC42NjdDNTAxLjk5NSwzNjcuMzYsMzkxLjkzNiwyNTcuMzIzLDI1Ni42NjEsMjU3LjMyM3oiIGZpbGw9IiMwMDAwMDAiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIHN0eWxlPSIiPjwvcGF0aD4KCTwvZz4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoJPGc+CgkJPHBhdGggZD0iTTI1Ni42NjEsMGMtNjQuNjgzLDAtMTE3LjMzMyw1Mi42MjktMTE3LjMzMywxMTcuMzMzczUyLjY1MSwxMTcuMzMzLDExNy4zMzMsMTE3LjMzM3MxMTcuMzMzLTUyLjYyOSwxMTcuMzMzLTExNy4zMzMgICAgUzMyMS4zNDQsMCwyNTYuNjYxLDB6IE0yNTYuNjYxLDIxMy4zMzNjLTUyLjkyOCwwLTk2LTQzLjA3Mi05Ni05NnM0My4wNzItOTYsOTYtOTZjNTIuOTI4LDAsOTYsNDMuMDcyLDk2LDk2ICAgIFMzMDkuNTg5LDIxMy4zMzMsMjU2LjY2MSwyMTMuMzMzeiIgZmlsbD0iIzAwMDAwMCIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiI+PC9wYXRoPgoJPC9nPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjwvZz48L3N2Zz4=">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row mt-3">
+                        <div class="col-10">
+                            <p class="mt-2 upper cart_color_solo cart_color">Cart</p>
+                        </div>
+                        <div class="col-2 d-flex" style="cursor: pointer; color:#01FF70;"> <span>(0)</span> <img
+                                class="nav_icons"
+                                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQ3MiA0NTJjMCAxMS4wNDYtOC45NTQgMjAtMjAgMjBoLTIwdjIwYzAgMTEuMDQ2LTguOTU0IDIwLTIwIDIwcy0yMC04Ljk1NC0yMC0yMHYtMjBoLTIwYy0xMS4wNDYgMC0yMC04Ljk1NC0yMC0yMHM4Ljk1NC0yMCAyMC0yMGgyMHYtMjBjMC0xMS4wNDYgOC45NTQtMjAgMjAtMjBzMjAgOC45NTQgMjAgMjB2MjBoMjBjMTEuMDQ2IDAgMjAgOC45NTQgMjAgMjB6bTAtMzEydjE5MmMwIDExLjA0Ni04Ljk1NCAyMC0yMCAyMHMtMjAtOC45NTQtMjAtMjB2LTE3MmgtNDB2NjBjMCAxMS4wNDYtOC45NTQgMjAtMjAgMjBzLTIwLTguOTU0LTIwLTIwdi02MGgtMTkydjYwYzAgMTEuMDQ2LTguOTU0IDIwLTIwIDIwcy0yMC04Ljk1NC0yMC0yMHYtNjBoLTQwdjMxMmgyMTJjMTEuMDQ2IDAgMjAgOC45NTQgMjAgMjBzLTguOTU0IDIwLTIwIDIwaC0yMzJjLTExLjA0NiAwLTIwLTguOTU0LTIwLTIwdi0zNTJjMC0xMS4wNDYgOC45NTQtMjAgMjAtMjBoNjAuOTQ2YzcuOTQ1LTY3LjQ3NyA2NS40NzctMTIwIDEzNS4wNTQtMTIwczEyNy4xMDkgNTIuNTIzIDEzNS4wNTQgMTIwaDYwLjk0NmMxMS4wNDYgMCAyMCA4Ljk1NCAyMCAyMHptLTEyMS4zNDEtMjBjLTcuNjQtNDUuMzQ1LTQ3LjE3Ni04MC05NC42NTktODBzLTg3LjAxOSAzNC42NTUtOTQuNjU5IDgweiIgZmlsbD0iIzAwMDAwMCIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiI+PC9wYXRoPjwvZz48L2c+PC9zdmc+">
+                        </div>
+                    </div>
+
+                    <hr>
+                    <div class="row mt-3">
+                        <div class="col-10">
+                            <p class="mt-2 upper cart_color_solo cart_color">Whishlist</p>
+                        </div>
+                        <div class="col-2 d-flex" style="cursor: pointer; color:#01FF70;"> <span>(0)</span> <img
+                                class="nav_icons"
+                                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDQ4MCA0ODAiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnPjxwYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZD0ibTM0OCAwYy00MyAuMDY2NDA2Mi04My4yODEyNSAyMS4wMzkwNjItMTA4IDU2LjIyMjY1Ni0yNC43MTg3NS0zNS4xODM1OTQtNjUtNTYuMTU2MjQ5OC0xMDgtNTYuMjIyNjU2LTcwLjMyMDMxMiAwLTEzMiA2NS40MjU3ODEtMTMyIDE0MCAwIDcyLjY3OTY4OCA0MS4wMzkwNjIgMTQ3LjUzNTE1NiAxMTguNjg3NSAyMTYuNDgwNDY5IDM1Ljk3NjU2MiAzMS44ODI4MTIgNzUuNDQxNDA2IDU5LjU5NzY1NiAxMTcuNjQwNjI1IDgyLjYyNSAyLjMwNDY4NyAxLjE4NzUgNS4wMzkwNjMgMS4xODc1IDcuMzQzNzUgMCA0Mi4xODM1OTQtMjMuMDI3MzQ0IDgxLjYzNjcxOS01MC43NDYwOTQgMTE3LjYwMTU2My04Mi42MjUgNzcuNjg3NS02OC45NDUzMTMgMTE4LjcyNjU2Mi0xNDMuODAwNzgxIDExOC43MjY1NjItMjE2LjQ4MDQ2OSAwLTc0LjU3NDIxOS02MS42Nzk2ODgtMTQwLTEzMi0xNDB6bS0xMDggNDIyLjkwMjM0NGMtMjkuMzgyODEyLTE2LjIxNDg0NC0yMjQtMTI5LjQ5NjA5NC0yMjQtMjgyLjkwMjM0NCAwLTY2LjA1NDY4OCA1NC4xOTkyMTktMTI0IDExNi0xMjQgNDEuODY3MTg4LjA3NDIxOSA4MC40NjA5MzggMjIuNjYwMTU2IDEwMS4wMzEyNSA1OS4xMjg5MDYgMS41MzkwNjIgMi4zNTE1NjMgNC4xNjAxNTYgMy43NjU2MjUgNi45Njg3NSAzLjc2NTYyNXM1LjQyOTY4OC0xLjQxNDA2MiA2Ljk2ODc1LTMuNzY1NjI1YzIwLjU3MDMxMi0zNi40Njg3NSA1OS4xNjQwNjItNTkuMDU0Njg3IDEwMS4wMzEyNS01OS4xMjg5MDYgNjEuODAwNzgxIDAgMTE2IDU3Ljk0NTMxMiAxMTYgMTI0IDAgMTUzLjQwNjI1LTE5NC42MTcxODggMjY2LjY4NzUtMjI0IDI4Mi45MDIzNDR6bTAgMCIgZmlsbD0iIzAwMDAwMCIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiIgY2xhc3M9IiI+PC9wYXRoPjwvZz48L3N2Zz4=">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+        <div class="container_1 d-flex p-2   flex-wrap">
+            <div>
+                <h3 class="cart_color_solo">Visit Us</h3>
+                <p class="cart_color_solo mt-3">32 Rue De condé</p>
+                <p class="cart_color_solo">Lille, lil 55900, France</p>
+                <p class="cart_color_solo">+33 753247689</p>
+            </div>
+            <div class="sec_block">
+                <h3 class="cart_color_solo">Get In Touch</h3>
+                <p class="cart_color_solo mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam
+                    recusandae eius culpa eos vitae, repellendus explicabo ducimus id facilis, quisquam asperiores unde
+                    tempora totam voluptates! Quidem quisquam non soluta tempore!</p>
+                <p class="cart_color_solo">Lille, lil 55900, France</p>
+                <p class="cart_color_solo">+33 753247689</p>
+            </div>
+        </div>
+        <div class="d-flex p-2 justify-content-lg-center   flex-wrap justify-content-start">
+            <div>
+                <div class="client_reviews">
+                    <div>
+                        <div class="">
+                            <textarea id="comment_txt" placeholder="Message *" name="comment" cols="45" rows="5"
+                                required=""></textarea>
+                        </div>
+                        <div class="block_txt_name_email ">
+                            <div><input type="text" placeholder="Name *"></div>
+                            <div><input type="text" placeholder="Email *"></div>
+                        </div>
+                        <div class="mt-5" style="display: flex; justify-content:center">
+                            <div class="btn_more_show" style="background-color:#01FF70; color:white">
+                                Submit</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---MODAL FOR SEARCH BOX--->
+    <div id="my_own_moda_search" class="my_own_moda_search">
+        <!-- Modal content -->
+        <div>
+            <span class="close close_modal_search">&times;</span>
+        </div>
+        <div class="modal-content">
+            <div>
+                <div class="row">
+                    <input type="text" placeholder="Search..." class="txt_search_home2 col-lg-12 col-12">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--BUTTO FOR SCROLLING TO TOP-->
+    <button id="myBtn1" title="Go to top"><i style="color: white;font-size:18px"
+            class='fas fa-arrow-up mt-1'></i></button>
+    <footer>
+        <div class="first_block">
+            <div>
+                <h6 style="color:#40423c;text-transform:uppercase">Our Story </h6>
+                <p class="text-light">Get now free <span style="text-decoration: underline;">20%</span> discount for
+                    all products on your first order</p>
+                <div class="follow_sub">
+                    <div><input type="text" placeholder="Email address" class="txt_email_footer special_txt"
+                            name="email_footer" id=""></div>
+                    <div>
+                        <div class="btn_more_show" style="background-color:#01FF70;; color:white">Sign Up</div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h6 style="color: #40423c;text-transform:uppercase">Quick Contact </h6>
+                <p class="text-light">If you have questions, please use our 24-hour helpline</p>
+                <div class="number_blcok_footer">
+                    <div>
+                        <i style="color:white;font-size:20px" class="fa fa-mobile" aria-hidden="true"></i>
+                    </div>
+                    <div>
+                        <span class="text-light ml-2">760 398-3535</span>
+                    </div>
+
+                </div>
+            </div>
+            <div>
+                <h6 style="color: #40423c;text-transform:uppercase;">Follow Us</h6>
+                <div>
+                    <div class="follow_sub">
+                        <div><i style="color:white;font-size:20px" class="fa fa-facebook-square" aria-hidden="true"></i>
+                        </div>
+                        <div><i style="color:white;font-size:20px" class="fa fa-instagram" aria-hidden="true"></i></div>
+                        <div><i style="color:white;font-size:20px" class="fa fa-pinterest" aria-hidden="true"></i></div>
+                    </div>
+
+                    <div class="block_payment_method mt-2">
+                        <div><i style="color:white;font-size:20px" class="fa fa-paypal" aria-hidden="true"></i></div>
+                        <div>
+                            <i style="color:white;font-size:20px" class="fa fa-cc-visa"></i>
+                        </div>
+                        <div>
+                            <i style="color:white;font-size:20px" class="fa fa-cc-mastercard"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="second_block mt-5">
+            <div class="first_second_block">
+                <div style="display: block;">
+                    <h3 class="title_first_second_block">Categorie</h3>
+                    <a href="#">Bridgal Jewelry</a>
+                    <a href="#">Rings</a>
+                    <a href="#">Women</a>
+                    <a href="#">Man</a>
+                    <a href="#">Children</a>
+                    <a href="#">Watches</a>
+                </div>
+                <div>
+                    <h3 class="title_first_second_block">Services</h3>
+                    <a href="#">Jewelry Repair</a>
+                    <a href="#">Watch Repair </a>
+                    <a href="#">Custom Jewelry</a>
+                    <a href="#">Ear Piercing </a>
+                    <a href="#">Jewelry Warranty</a>
+                </div>
+                <div>
+                    <h3 class="title_first_second_block">Apply For Credit </h3>
+                    <a href="#">Credit Request Form</a>
+                    <a href="#">Acima</a>
+                    <a href="#">Synchrony</a>
+                </div>
+                <div>
+                    <h3 class="title_first_second_block">Contact Us</h3>
+                    <a href="#">Location</a>
+                    <a href="#">Contact Form</a>
+                    <a href="#">Support</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">Children</a>
+                    <a href="#">Blog</a>
+                </div>
+            </div>
+            <div class="second_second_block">
+                <div class="mt-4">
+                    <a href="#">Term & Conditions</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Cookies</a>
+                </div>
+            </div>
+        </div>
+        <h3 class="text-center" style="font-size: 15px; color:#40423c;">Copyright © 2020 by Sweava. All Rights Reserved
+        </h3>
+    </footer>
+    <div class="loading_space d-flex justify-content-center align-items-center">
+        <div class="loading_space_child">
+            <div>
+                <img class="" src="assets/img/logo.svg" alt="">
+            </div>
+            <div>
+                <p class="text-center mt-2" style="letter-spacing: 1px;">Loading Please Wait</p>
+            </div>
+            <div style="margin-left: 120px;">
+                <p class="loader align-self-center"></p>
+            </div>
+
+        </div>
+    </div>
+    <!--CUSTOM CSS FOR ACCORDION--->
+    <style>
+        .follow_sub {
+            justify-content: center;
+        }
+
+        .container_1>div {
+            margin: 100px 100px 30px 100px;
+        }
+
+        .sec_block {
+            width: 40%
+        }
+
+        .container_1 {
+            justify-content: center;
+        }
+
+
+
+        @media screen and (max-width: 768px) {
+            .sec_block {
+                width: 100%
+            }
+
+            .container_1>div {
+                margin: 20px 10px 0px 10px;
+            }
+
+            .container_1 {
+                justify-content: flex-start !important;
+            }
+        }
+
+        @media screen and (max-width: 992px) {
+            .accordion_title {
+                background-color: white;
+                padding: 10px;
+                color: black;
+                margin-top: 10px;
+                box-shadow: none;
+                text-transform: uppercase;
+
+            }
+        }
+    </style>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/common_page_2.js"></script>
+    <script src="assets/js/home5.js"></script>
+    <script src="assets/js/carousel/owlcarousel/owl.carousel.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/carousel/big.js"></script>
+    <script src="assets/css/accordion/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- <link rel="stylesheet" href="main.css?<?php echo  rand(); ?>">-->
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/home4.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/js/carousel/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/js/carousel/owlcarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <script src="assets/js/fontawesome.js" crossorigin="anonymous"></script>
+    <link href="assets/css/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@600&display=swap" rel="stylesheet">
+    <link href="assets/css/accordion/main.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/grid_view_1.css" rel="stylesheet">
+    <script src="assets/zoom/jquery.elevatezoom.js"></script>
+    <meta charset="utf-8" />
+</head>
+
+<body>
+    <div id="page-content">
+        <div class="header">
+            <div>
+                <a href="#">
+                    <i style="color:white;font-size:20px" class="fa fa-facebook-square" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <i style="color:white;font-size:20px" class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <i style="color:white;font-size:20px" class="fa fa-pinterest" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div>
+                <a href="about.html"> About Us </a>
+            </div>
+            <div>
+                <a href="contact.html"> Contact Us </a>
+            </div>
+        </div>
+        <nav style="display: flex; justify-content: space-around;z-index: 1000;padding: 20px 0px 20px 0px;width: 100%;">
+            <div class="open_main_menu_side" style="cursor: pointer;"><img class="nav_icons"
+                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDYxMiA2MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoJPGcgaWQ9Im1lbnUiPgoJCTxnPgoJCQk8cGF0aCBkPSJNMCw5NS42MjV2MzguMjVoNjEydi0zOC4yNUgweiBNMCwzMjUuMTI1aDYxMnYtMzguMjVIMFYzMjUuMTI1eiBNMCw1MTYuMzc1aDYxMnYtMzguMjVIMFY1MTYuMzc1eiIgZmlsbD0iIzAwMDAwMCIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiI+PC9wYXRoPgoJCTwvZz4KCTwvZz4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8L2c+PC9zdmc+" />
+            </div>
+            <div class="logo_block_home3">
+                <a href="index.html"><img class="logo_other" src="assets/img/logo.svg" alt=""></a>
+            </div>
+            <div class="search_part_block">
+                <div>
+                    <img class="nav_icons open_search_box"
+                        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoJPGc+CgkJPHBhdGggZD0iTTUwOC44NzUsNDkzLjc5MkwzNTMuMDg5LDMzOC4wMDVjMzIuMzU4LTM1LjkyNyw1Mi4yNDUtODMuMjk2LDUyLjI0NS0xMzUuMzM5QzQwNS4zMzMsOTAuOTE3LDMxNC40MTcsMCwyMDIuNjY3LDAgICAgUzAsOTAuOTE3LDAsMjAyLjY2N3M5MC45MTcsMjAyLjY2NywyMDIuNjY3LDIwMi42NjdjNTIuMDQzLDAsOTkuNDExLTE5Ljg4NywxMzUuMzM5LTUyLjI0NWwxNTUuNzg2LDE1NS43ODYgICAgYzIuMDgzLDIuMDgzLDQuODEzLDMuMTI1LDcuNTQyLDMuMTI1YzIuNzI5LDAsNS40NTgtMS4wNDIsNy41NDItMy4xMjVDNTEzLjA0Miw1MDQuNzA4LDUxMy4wNDIsNDk3Ljk1OCw1MDguODc1LDQ5My43OTJ6ICAgICBNMjAyLjY2NywzODRjLTk5Ljk3OSwwLTE4MS4zMzMtODEuMzQ0LTE4MS4zMzMtMTgxLjMzM1MxMDIuNjg4LDIxLjMzMywyMDIuNjY3LDIxLjMzM1MzODQsMTAyLjY3NywzODQsMjAyLjY2NyAgICBTMzAyLjY0NiwzODQsMjAyLjY2NywzODR6IiBmaWxsPSIjMDAwMDAwIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIj48L3BhdGg+Cgk8L2c+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPC9nPjwvc3ZnPg==" />
+                </div>
+                <div>
+                    <a href="login_single.html">
+                        <img class="nav_icons"
+                            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDUxMy4zMjMgNTEzLjMyMyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PGc+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+Cgk8Zz4KCQk8cGF0aCBkPSJNMjU2LjY2MSwyNTcuMzIzYy0xMzUuMjc1LDAtMjQ1LjMzMywxMTAuMDU5LTI0NS4zMzMsMjQ1LjMzM2MwLDUuODg4LDQuNzc5LDEwLjY2NywxMC42NjcsMTAuNjY3ICAgIHMxMC42NjctNC43NzksMTAuNjY3LTEwLjY2N2MwLTEyMy41MiwxMDAuNDgtMjI0LDIyNC0yMjRzMjI0LDEwMC40OCwyMjQsMjI0YzAsNS44ODgsNC43NzksMTAuNjY3LDEwLjY2NywxMC42NjcgICAgYzUuODg4LDAsMTAuNjY3LTQuNzc5LDEwLjY2Ny0xMC42NjdDNTAxLjk5NSwzNjcuMzYsMzkxLjkzNiwyNTcuMzIzLDI1Ni42NjEsMjU3LjMyM3oiIGZpbGw9IiMwMDAwMDAiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIHN0eWxlPSIiPjwvcGF0aD4KCTwvZz4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoJPGc+CgkJPHBhdGggZD0iTTI1Ni42NjEsMGMtNjQuNjgzLDAtMTE3LjMzMyw1Mi42MjktMTE3LjMzMywxMTcuMzMzczUyLjY1MSwxMTcuMzMzLDExNy4zMzMsMTE3LjMzM3MxMTcuMzMzLTUyLjYyOSwxMTcuMzMzLTExNy4zMzMgICAgUzMyMS4zNDQsMCwyNTYuNjYxLDB6IE0yNTYuNjYxLDIxMy4zMzNjLTUyLjkyOCwwLTk2LTQzLjA3Mi05Ni05NnM0My4wNzItOTYsOTYtOTZjNTIuOTI4LDAsOTYsNDMuMDcyLDk2LDk2ICAgIFMzMDkuNTg5LDIxMy4zMzMsMjU2LjY2MSwyMTMuMzMzeiIgZmlsbD0iIzAwMDAwMCIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiI+PC9wYXRoPgoJPC9nPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjwvZz48L3N2Zz4=" />
+                    </a>
+                </div>
+                <div>
+                    <a href="cart_1.html">
+                        <img class="nav_icons"
+                            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQ3MiA0NTJjMCAxMS4wNDYtOC45NTQgMjAtMjAgMjBoLTIwdjIwYzAgMTEuMDQ2LTguOTU0IDIwLTIwIDIwcy0yMC04Ljk1NC0yMC0yMHYtMjBoLTIwYy0xMS4wNDYgMC0yMC04Ljk1NC0yMC0yMHM4Ljk1NC0yMCAyMC0yMGgyMHYtMjBjMC0xMS4wNDYgOC45NTQtMjAgMjAtMjBzMjAgOC45NTQgMjAgMjB2MjBoMjBjMTEuMDQ2IDAgMjAgOC45NTQgMjAgMjB6bTAtMzEydjE5MmMwIDExLjA0Ni04Ljk1NCAyMC0yMCAyMHMtMjAtOC45NTQtMjAtMjB2LTE3MmgtNDB2NjBjMCAxMS4wNDYtOC45NTQgMjAtMjAgMjBzLTIwLTguOTU0LTIwLTIwdi02MGgtMTkydjYwYzAgMTEuMDQ2LTguOTU0IDIwLTIwIDIwcy0yMC04Ljk1NC0yMC0yMHYtNjBoLTQwdjMxMmgyMTJjMTEuMDQ2IDAgMjAgOC45NTQgMjAgMjBzLTguOTU0IDIwLTIwIDIwaC0yMzJjLTExLjA0NiAwLTIwLTguOTU0LTIwLTIwdi0zNTJjMC0xMS4wNDYgOC45NTQtMjAgMjAtMjBoNjAuOTQ2YzcuOTQ1LTY3LjQ3NyA2NS40NzctMTIwIDEzNS4wNTQtMTIwczEyNy4xMDkgNTIuNTIzIDEzNS4wNTQgMTIwaDYwLjk0NmMxMS4wNDYgMCAyMCA4Ljk1NCAyMCAyMHptLTEyMS4zNDEtMjBjLTcuNjQtNDUuMzQ1LTQ3LjE3Ni04MC05NC42NTktODBzLTg3LjAxOSAzNC42NTUtOTQuNjU5IDgweiIgZmlsbD0iIzAwMDAwMCIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiI+PC9wYXRoPjwvZz48L2c+PC9zdmc+" />
+                        <span class="numbers_heart">0</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="wishlist.html">
+                        <img class="nav_icons"
+                            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDQ4MCA0ODAiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnPjxwYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZD0ibTM0OCAwYy00MyAuMDY2NDA2Mi04My4yODEyNSAyMS4wMzkwNjItMTA4IDU2LjIyMjY1Ni0yNC43MTg3NS0zNS4xODM1OTQtNjUtNTYuMTU2MjQ5OC0xMDgtNTYuMjIyNjU2LTcwLjMyMDMxMiAwLTEzMiA2NS40MjU3ODEtMTMyIDE0MCAwIDcyLjY3OTY4OCA0MS4wMzkwNjIgMTQ3LjUzNTE1NiAxMTguNjg3NSAyMTYuNDgwNDY5IDM1Ljk3NjU2MiAzMS44ODI4MTIgNzUuNDQxNDA2IDU5LjU5NzY1NiAxMTcuNjQwNjI1IDgyLjYyNSAyLjMwNDY4NyAxLjE4NzUgNS4wMzkwNjMgMS4xODc1IDcuMzQzNzUgMCA0Mi4xODM1OTQtMjMuMDI3MzQ0IDgxLjYzNjcxOS01MC43NDYwOTQgMTE3LjYwMTU2My04Mi42MjUgNzcuNjg3NS02OC45NDUzMTMgMTE4LjcyNjU2Mi0xNDMuODAwNzgxIDExOC43MjY1NjItMjE2LjQ4MDQ2OSAwLTc0LjU3NDIxOS02MS42Nzk2ODgtMTQwLTEzMi0xNDB6bS0xMDggNDIyLjkwMjM0NGMtMjkuMzgyODEyLTE2LjIxNDg0NC0yMjQtMTI5LjQ5NjA5NC0yMjQtMjgyLjkwMjM0NCAwLTY2LjA1NDY4OCA1NC4xOTkyMTktMTI0IDExNi0xMjQgNDEuODY3MTg4LjA3NDIxOSA4MC40NjA5MzggMjIuNjYwMTU2IDEwMS4wMzEyNSA1OS4xMjg5MDYgMS41MzkwNjIgMi4zNTE1NjMgNC4xNjAxNTYgMy43NjU2MjUgNi45Njg3NSAzLjc2NTYyNXM1LjQyOTY4OC0xLjQxNDA2MiA2Ljk2ODc1LTMuNzY1NjI1YzIwLjU3MDMxMi0zNi40Njg3NSA1OS4xNjQwNjItNTkuMDU0Njg3IDEwMS4wMzEyNS01OS4xMjg5MDYgNjEuODAwNzgxIDAgMTE2IDU3Ljk0NTMxMiAxMTYgMTI0IDAgMTUzLjQwNjI1LTE5NC42MTcxODggMjY2LjY4NzUtMjI0IDI4Mi45MDIzNDR6bTAgMCIgZmlsbD0iIzAwMDAwMCIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiIgY2xhc3M9IiI+PC9wYXRoPjwvZz48L3N2Zz4=" />
+                        <span class="numbers_heart">0</span>
+                    </a>
+
+                </div>
+            </div>
+            <!-- MAIN MENU-->
+            <div class="sidebar_main_menu">
+                <div class="container menu_show_for_computer">
+                    <div class="row">
+                        <div class="col-lg-11">
+                            <ul class="main_menu_ul d-flex justify-content-between ">
+                                <li class="d-flex justify-content-between li_links_main_menu_ul">
+                                    <a href="#">Home</a>
+                                    <ul class="sub_menu_main_menu_ul container">
+                                        <ul class="row">
+                                            <li class="col-lg-3">
+                                                <a href="#">Home Pages</a>
+                                                <ul class="sub_menu_links_menu_main_menu">
+                                                    <li><a href="index.html">Home 1</a></li>
+                                                    <li><a href="home5.html">Home 2</a></li>
+                                                    <li><a href="home6.html">Home 3</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="col-lg-3">
+                                                <a href="#">Header Layout</a>
+                                                <ul class="sub_menu_links_menu_main_menu">
+                                                    <li><a href="index.html">Header v1</a></li>
+                                                    <li><a href="home5.html">Header v2</a></li>
+                                                    <li><a href="home6.html">Header v3</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="col-lg-3">
+                                                <a href="#">Home Options</a>
+                                                <ul class="sub_menu_links_menu_main_menu">
+                                                    <li><a href="home6.html">Modal Popup</a></li>
+                                                    <li><a href="home5.html">Header Without Stick</a></li>
+                                                    <li><a href="home6.html">Header Stick 1</a></li>
+                                                    <li><a href="index.html">Header Stick 2</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="col-lg-3">
+                                                <a href="#">
+                                                    <div class="parent_to_up">
+                                                        <img class="child_to_up"
+                                                            src="https://images.unsplash.com/photo-1609535766106-0864edad28e4?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8bmlrZSUyMHNob2VzfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                                                            alt="">
+                                                    </div>
+                                                    <p class="mt-2" style="font-size:13px">Lookbook: Seasonal sneakers
+                                                    </p>
+                                                    <button onclick="window.location.href='#'"
+                                                        class="btn_carou_buy_now_big btn_by_now_simple black_on_small">
+                                                        <span class="ml-2">
+                                                            By Now</span> <i style="color:white;"
+                                                            class="fas fa-arrow-right ml-2"
+                                                            aria-hidden="true"></i></button>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </ul>
+                                </li>
+                                <li class="d-flex justify-content-between li_links_main_menu_ul">
+                                    <a href="#">Shop</a>
+                                    <ul class="sub_menu_main_menu_ul container">
+                                        <ul class="row">
+                                            <li class="col-lg-3">
+                                                <a href="#">Catalog</a>
+                                                <ul class="sub_menu_links_menu_main_menu">
+                                                    <li><a href="grid_view_1.html">Style 1</a></li>
+                                                    <li><a href="grid_view_2.html">Style 2</a></li>
+                                                    <li><a href="grid_view_3.html">Style 3</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="col-lg-3">
+                                                <a href="#">Cart & Whislis</a>
+                                                <ul class="sub_menu_links_menu_main_menu">
+                                                    <li><a href="cart_1.html">Cart 1</a></li>
+                                                    <li><a href="cart_2.html">Cart 2</a></li>
+                                                    <li><a href="cart_3.html">Cart 3</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="col-lg-3">
+                                                <a href="#">Checkout & Validation</a>
+                                                <ul class="sub_menu_links_menu_main_menu">
+                                                    <li><a href="checkout_road_1.html">Checkout Road 1</a></li>
+                                                    <li><a href="checkout_road_2.html">Checkout Road 2</a></li>
+                                                    <li><a href="checkout_road_3.html">Checkout Road 3</a></li>
+                                                    <li><a href="checkout_road_4.html">Checkout Road 4</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="col-lg-3">
+                                                <a href="#">
+                                                    <div class="parent_to_up">
+                                                        <img class="child_to_up"
+                                                            src="https://images.unsplash.com/photo-1610371335313-a69c45999f0c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8bmlrZSUyMHNob2VzfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                                                            alt="">
+                                                    </div>
+                                                    <p class="mt-2" style="font-size:13px">Lookbook: Seasonal sneakers
+                                                    </p>
+                                                    <button onclick="window.location.href='#'"
+                                                        class="btn_carou_buy_now_big btn_by_now_simple black_on_small">
+                                                        <span class="ml-2">
+                                                            By Now</span> <i style="color:white;"
+                                                            class="fas fa-arrow-right ml-2"
+                                                            aria-hidden="true"></i></button>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </ul>
+                                </li>
+                                <li class="d-flex justify-content-between li_links_main_menu_ul">
+                                    <a href="#">Product & Other Pages</a>
+                                    <ul class="sub_menu_main_menu_ul container">
+                                        <ul class="row">
+                                            <li class="col-lg-3">
+                                                <a href="#">Product Types</a>
+                                                <ul class="sub_menu_links_menu_main_menu">
+                                                    <li><a href="product-detail.html">Product Pages 1</a></li>
+                                                    <li><a href="product-detail_2.html">Product Pages 3</a></li>
+                                                    <li><a href="product-detail_3.html">Product Pages 3</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="col-lg-3">
+                                                <a href="#">Other Pages</a>
+                                                <ul class="sub_menu_links_menu_main_menu">
+                                                    <li><a href="about.html">About</a></li>
+                                                    <li><a href="contact.html">Contact</a></li>
+                                                    <li><a href="login_single.html">Login Single</a></li>
+                                                    <li><a href="register_single.html">Register Single</a></li>
+                                                    <li><a href="my_account.html">My Account</a></li>
+                                                    <li><a href="404.html">Not found Page</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="col-lg-3">
+                                                <a href="#">
+                                                    <div class="parent_to_up">
+                                                        <img class="child_to_up"
+                                                            src="https://images.unsplash.com/photo-1592771404380-467f535c7c4f?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjB8fG5pa2UlMjBzaG9lc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                                                            alt="">
+                                                    </div>
+                                                    <p class="mt-2" style="font-size:13px">Lookbook: Seasonal sneakers
+                                                    </p>
+                                                    <button onclick="window.location.href='#'"
+                                                        class="btn_carou_buy_now_big btn_by_now_simple black_on_small">
+                                                        <span class="ml-2">
+                                                            By Now</span> <i style="color:white;"
+                                                            class="fas fa-arrow-right ml-2"
+                                                            aria-hidden="true"></i></button>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </ul>
+                                </li>
+                                <li class="d-flex justify-content-between li_links_main_menu_ul">
+                                    <a href="#">Blog</a>
+                                    <ul class="sub_menu_main_menu_ul container">
+                                        <ul class="row">
+                                            <li class="col-lg-3">
+                                                <a href="#">Blog Pages</a>
+                                                <ul class="sub_menu_links_menu_main_menu">
+                                                    <li><a href="blog_classic.html">Classic Simple</a></li>
+                                                    <li><a href="blog_classic-side-bar.html">Classic With Side Bar</a>
+                                                    </li>
+                                                    <li><a href="blog_grid.html">Blog Grid</a></li>
+                                                    <li><a href="blog_list.html">Blog List</a></li>
+                                                    <li><a href="blog_single.html">Blog single simple</a></li>
+                                                    <li><a href="blog_single_side.html">Blog single With Side Bar</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+
+                                            <li class="col-lg-3">
+                                                <a href="#">
+                                                    <div class="parent_to_up">
+                                                        <img class="child_to_up" src="assets/img/latest_1.jpg" alt="">
+                                                    </div>
+                                                    <p class="mt-2" style="font-size:13px">Lookbook: Seasonal sneakers
+                                                    </p>
+                                                    <button onclick="window.location.href='#'"
+                                                        class="btn_carou_buy_now_big btn_by_now_simple black_on_small">
+                                                        <span class="ml-2">
+                                                            By Now</span> <i style="color:white;"
+                                                            class="fas fa-arrow-right ml-2"
+                                                            aria-hidden="true"></i></button>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-1 mt-3" style="cursor: pointer;"><span
+                                class="close close_main_menu text-right" style="font-size: 30px;">&times;</span></div>
+                    </div>
+                </div>
+                <div class="container menu_show_for_phone_tablette">
+                    <div class="row mt-3">
+                        <div class="col-10">
+                            <p class="mt-2 upper cart_color_solo">Menu</p>
+                        </div>
+                        <div class="col-2" style="cursor: pointer;"><span class="close close_main_menu text-right"
+                                style="font-size: 30px;">&times;</span></div>
+                    </div>
+
+                    <div class="accordion_parent">
+                        <div class="accordion_title row">
+                            <span class="col-lg-11 cart_color_solo col-sm-11 col-10 ml-3">Home</span>
+                            <strong class="plus_signe_accordion"><i style="font-size:20px"
+                                    class="fas text-center fa-plus" aria-hidden="true"></i></strong>
+                        </div>
+                        <div class="accordion_child complemention container ">
+                            <div class="accordion_parent sub_for_menu_add">
+                                <div class="accordion_title row">
+                                    <span class="col-lg-11 cart_color_solo col-sm-11 col-10 ml-3">Home Pages</span>
+                                    <strong class="plus_signe_accordion"><i style="font-size:20px"
+                                            class="fas text-center fa-plus" aria-hidden="true"></i></strong>
+                                </div>
+                                <div class="accordion_child complemention container ">
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="index.html">Home 1</a></div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="home5.html">Home 2</a></div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="home6.html">Home 3</a></div>
+                                </div>
+                            </div>
+                            <div class="accordion_parent sub_for_menu_add">
+                                <div class="accordion_title row">
+                                    <span class="col-lg-11 cart_color_solo col-sm-11 col-10 ml-3">Header Layout</span>
+                                    <strong class="plus_signe_accordion"><i style="font-size:20px"
+                                            class="fas text-center fa-plus" aria-hidden="true"></i></strong>
+                                </div>
+                                <div class="accordion_child complemention container ">
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="index.html">Header V1</a>
+                                    </div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="home5.html">Header V2</a>
+                                    </div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="home6.html">Header V3</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion_parent sub_for_menu_add">
+                                <div class="accordion_title row">
+                                    <span class="col-lg-11 cart_color_solo col-sm-11 col-10 ml-3">Home Options</span>
+                                    <strong class="plus_signe_accordion"><i style="font-size:20px"
+                                            class="fas text-center fa-plus" aria-hidden="true"></i></strong>
+                                </div>
+                                <div class="accordion_child complemention container ">
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="home6.html">Modal Popup</a>
+                                    </div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="home5.html">Header Whithout
+                                            Stciky</a>
+                                    </div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="index.html">Header
+                                            Stciky1</a></div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="home6.html">Header
+                                            Stciky2</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="accordion_parent">
+                        <div class="accordion_title row">
+                            <span class="col-lg-11 cart_color_solo col-sm-11 col-10 ml-3">Shop</span>
+                            <strong class="plus_signe_accordion"><i style="font-size:20px"
+                                    class="fas text-center fa-plus" aria-hidden="true"></i></strong>
+                        </div>
+                        <div class="accordion_child complemention container">
+                            <div class="accordion_parent sub_for_menu_add">
+                                <div class="accordion_title row">
+                                    <span class="col-lg-11 cart_color_solo col-sm-11 col-10 ml-3">Catalog</span>
+                                    <strong class="plus_signe_accordion"><i style="font-size:20px"
+                                            class="fas text-center fa-plus" aria-hidden="true"></i></strong>
+                                </div>
+                                <div class="accordion_child complemention container">
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="grid_view_1.html">Style
+                                            1</a></div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="grid_view_2.html">Style
+                                            2</a></div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="grid_view_3.html">Style
+                                            3</a></div>
+                                </div>
+                            </div>
+                            <div class="accordion_parent sub_for_menu_add">
+                                <div class="accordion_title row">
+                                    <span class="col-lg-11 cart_color_solo col-sm-11 col-10 ml-3">Cart &
+                                        Whishlist</span>
+                                    <strong class="plus_signe_accordion"><i style="font-size:20px"
+                                            class="fas text-center fa-plus" aria-hidden="true"></i></strong>
+                                </div>
+                                <div class="accordion_child complemention container ">
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="cart_1.html">Cart 1</a>
+                                    </div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="cart_2.html">Cart 2</a>
+                                    </div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="cart_3.html">Cart 3</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion_parent sub_for_menu_add">
+                                <div class="accordion_title row">
+                                    <span class="col-lg-11 cart_color_solo col-sm-11 col-10 ml-3">Checkout &
+                                        Validationi</span>
+                                    <strong class="plus_signe_accordion"><i style="font-size:20px"
+                                            class="fas text-center fa-plus" aria-hidden="true"></i></strong>
+                                </div>
+                                <div class="accordion_child complemention container ">
+                                    <div class="mt-2"><a class="cart_color_solo ml-5"
+                                            href="checkout_road_1.html">Checkout Road 1</a></div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5"
+                                            href="checkout_road_2.html">Checkout Road 2</a></div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5"
+                                            href="checkout_road_3.html">Checkout Road 3</a></div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5"
+                                            href="checkout_road_4.html">Checkout Road 4</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="accordion_parent">
+                        <div class="accordion_title row">
+                            <span class="col-lg-11 cart_color_solo col-sm-11 col-10 ml-3">Product & Other Pages</span>
+                            <strong class="plus_signe_accordion"><i style="font-size:20px"
+                                    class="fas text-center fa-plus" aria-hidden="true"></i></strong>
+                        </div>
+                        <div class="accordion_child complemention container">
+                            <div class="accordion_parent sub_for_menu_add">
+                                <div class="accordion_title row">
+                                    <span class="col-lg-11 cart_color_solo col-sm-11 col-10 ml-3">Product Types</span>
+                                    <strong class="plus_signe_accordion"><i style="font-size:20px"
+                                            class="fas text-center fa-plus" aria-hidden="true"></i></strong>
+                                </div>
+                                <div class="accordion_child complemention container">
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="product-detail.html">Product
+                                            Pages 1</a></div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5"
+                                            href="product-detail_2.html">Product Pages 2</a></div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5"
+                                            href="product-detail_3.html">Product Pages 3</a></div>
+                                </div>
+                            </div>
+                            <div class="accordion_parent sub_for_menu_add">
+                                <div class="accordion_title row">
+                                    <span class="col-lg-11 cart_color_solo col-sm-11 col-10 ml-3">Other Pages</span>
+                                    <strong class="plus_signe_accordion"><i style="font-size:20px"
+                                            class="fas text-center fa-plus" aria-hidden="true"></i></strong>
+                                </div>
+                                <div class="accordion_child complemention container ">
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="about.html">About</a></div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="contact.html">Contact</a>
+                                    </div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="login_single.html">Login
+                                            Single</a></div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5"
+                                            href="register_single.html">Register Single</a></div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="my_account.html">My
+                                            Account</a></div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="404.html">Not Found Page</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="accordion_parent">
+                        <div class="accordion_title row">
+                            <span class="col-lg-11 cart_color_solo col-sm-11 col-10 ml-3">Blog</span>
+                            <strong class="plus_signe_accordion"><i style="font-size:20px"
+                                    class="fas text-center fa-plus" aria-hidden="true"></i></strong>
+                        </div>
+                        <div class="accordion_child complemention container">
+                            <div class="accordion_parent sub_for_menu_add">
+                                <div class="accordion_title row">
+                                    <span class="col-lg-11 cart_color_solo col-sm-11 col-10 ml-3">Blog Pages</span>
+                                    <strong class="plus_signe_accordion"><i style="font-size:20px"
+                                            class="fas text-center fa-plus" aria-hidden="true"></i></strong>
+                                </div>
+                                <div class="accordion_child complemention container">
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="blog_classic.html">Classic
+                                            Simple</a></div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5"
+                                            href="blog_classic-side-bar.html">Classic With Side Bar</a>
+                                    </div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="blog_grid.html">Blog
+                                            Grid</a></div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="blog_list.html">Blog
+                                            List</a></div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="blog_single.html">Blog
+                                            single simple</a>
+                                    </div>
+                                    <div class="mt-2"><a class="cart_color_solo ml-5" href="blog_single_side.html">Blog
+                                            single With Side
+                                            Bar</a></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row mt-3">
+                        <div class="col-10">
+                            <p class="mt-2 upper cart_color_solo cart_color">Login</p>
+                        </div>
+                        <div class="col-2" style="cursor: pointer;"><img class="nav_icons"
+                                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDUxMy4zMjMgNTEzLjMyMyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PGc+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+Cgk8Zz4KCQk8cGF0aCBkPSJNMjU2LjY2MSwyNTcuMzIzYy0xMzUuMjc1LDAtMjQ1LjMzMywxMTAuMDU5LTI0NS4zMzMsMjQ1LjMzM2MwLDUuODg4LDQuNzc5LDEwLjY2NywxMC42NjcsMTAuNjY3ICAgIHMxMC42NjctNC43NzksMTAuNjY3LTEwLjY2N2MwLTEyMy41MiwxMDAuNDgtMjI0LDIyNC0yMjRzMjI0LDEwMC40OCwyMjQsMjI0YzAsNS44ODgsNC43NzksMTAuNjY3LDEwLjY2NywxMC42NjcgICAgYzUuODg4LDAsMTAuNjY3LTQuNzc5LDEwLjY2Ny0xMC42NjdDNTAxLjk5NSwzNjcuMzYsMzkxLjkzNiwyNTcuMzIzLDI1Ni42NjEsMjU3LjMyM3oiIGZpbGw9IiMwMDAwMDAiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIHN0eWxlPSIiPjwvcGF0aD4KCTwvZz4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoJPGc+CgkJPHBhdGggZD0iTTI1Ni42NjEsMGMtNjQuNjgzLDAtMTE3LjMzMyw1Mi42MjktMTE3LjMzMywxMTcuMzMzczUyLjY1MSwxMTcuMzMzLDExNy4zMzMsMTE3LjMzM3MxMTcuMzMzLTUyLjYyOSwxMTcuMzMzLTExNy4zMzMgICAgUzMyMS4zNDQsMCwyNTYuNjYxLDB6IE0yNTYuNjYxLDIxMy4zMzNjLTUyLjkyOCwwLTk2LTQzLjA3Mi05Ni05NnM0My4wNzItOTYsOTYtOTZjNTIuOTI4LDAsOTYsNDMuMDcyLDk2LDk2ICAgIFMzMDkuNTg5LDIxMy4zMzMsMjU2LjY2MSwyMTMuMzMzeiIgZmlsbD0iIzAwMDAwMCIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiI+PC9wYXRoPgoJPC9nPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjwvZz48L3N2Zz4=">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row mt-3">
+                        <div class="col-10">
+                            <p class="mt-2 upper cart_color_solo cart_color">Cart</p>
+                        </div>
+                        <div class="col-2 d-flex" style="cursor: pointer; color:#01FF70;"> <span>(0)</span> <img
+                                class="nav_icons"
+                                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQ3MiA0NTJjMCAxMS4wNDYtOC45NTQgMjAtMjAgMjBoLTIwdjIwYzAgMTEuMDQ2LTguOTU0IDIwLTIwIDIwcy0yMC04Ljk1NC0yMC0yMHYtMjBoLTIwYy0xMS4wNDYgMC0yMC04Ljk1NC0yMC0yMHM4Ljk1NC0yMCAyMC0yMGgyMHYtMjBjMC0xMS4wNDYgOC45NTQtMjAgMjAtMjBzMjAgOC45NTQgMjAgMjB2MjBoMjBjMTEuMDQ2IDAgMjAgOC45NTQgMjAgMjB6bTAtMzEydjE5MmMwIDExLjA0Ni04Ljk1NCAyMC0yMCAyMHMtMjAtOC45NTQtMjAtMjB2LTE3MmgtNDB2NjBjMCAxMS4wNDYtOC45NTQgMjAtMjAgMjBzLTIwLTguOTU0LTIwLTIwdi02MGgtMTkydjYwYzAgMTEuMDQ2LTguOTU0IDIwLTIwIDIwcy0yMC04Ljk1NC0yMC0yMHYtNjBoLTQwdjMxMmgyMTJjMTEuMDQ2IDAgMjAgOC45NTQgMjAgMjBzLTguOTU0IDIwLTIwIDIwaC0yMzJjLTExLjA0NiAwLTIwLTguOTU0LTIwLTIwdi0zNTJjMC0xMS4wNDYgOC45NTQtMjAgMjAtMjBoNjAuOTQ2YzcuOTQ1LTY3LjQ3NyA2NS40NzctMTIwIDEzNS4wNTQtMTIwczEyNy4xMDkgNTIuNTIzIDEzNS4wNTQgMTIwaDYwLjk0NmMxMS4wNDYgMCAyMCA4Ljk1NCAyMCAyMHptLTEyMS4zNDEtMjBjLTcuNjQtNDUuMzQ1LTQ3LjE3Ni04MC05NC42NTktODBzLTg3LjAxOSAzNC42NTUtOTQuNjU5IDgweiIgZmlsbD0iIzAwMDAwMCIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiI+PC9wYXRoPjwvZz48L2c+PC9zdmc+">
+                        </div>
+                    </div>
+
+                    <hr>
+                    <div class="row mt-3">
+                        <div class="col-10">
+                            <p class="mt-2 upper cart_color_solo cart_color">Whishlist</p>
+                        </div>
+                        <div class="col-2 d-flex" style="cursor: pointer; color:#01FF70;"> <span>(0)</span> <img
+                                class="nav_icons"
+                                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDQ4MCA0ODAiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnPjxwYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZD0ibTM0OCAwYy00MyAuMDY2NDA2Mi04My4yODEyNSAyMS4wMzkwNjItMTA4IDU2LjIyMjY1Ni0yNC43MTg3NS0zNS4xODM1OTQtNjUtNTYuMTU2MjQ5OC0xMDgtNTYuMjIyNjU2LTcwLjMyMDMxMiAwLTEzMiA2NS40MjU3ODEtMTMyIDE0MCAwIDcyLjY3OTY4OCA0MS4wMzkwNjIgMTQ3LjUzNTE1NiAxMTguNjg3NSAyMTYuNDgwNDY5IDM1Ljk3NjU2MiAzMS44ODI4MTIgNzUuNDQxNDA2IDU5LjU5NzY1NiAxMTcuNjQwNjI1IDgyLjYyNSAyLjMwNDY4NyAxLjE4NzUgNS4wMzkwNjMgMS4xODc1IDcuMzQzNzUgMCA0Mi4xODM1OTQtMjMuMDI3MzQ0IDgxLjYzNjcxOS01MC43NDYwOTQgMTE3LjYwMTU2My04Mi42MjUgNzcuNjg3NS02OC45NDUzMTMgMTE4LjcyNjU2Mi0xNDMuODAwNzgxIDExOC43MjY1NjItMjE2LjQ4MDQ2OSAwLTc0LjU3NDIxOS02MS42Nzk2ODgtMTQwLTEzMi0xNDB6bS0xMDggNDIyLjkwMjM0NGMtMjkuMzgyODEyLTE2LjIxNDg0NC0yMjQtMTI5LjQ5NjA5NC0yMjQtMjgyLjkwMjM0NCAwLTY2LjA1NDY4OCA1NC4xOTkyMTktMTI0IDExNi0xMjQgNDEuODY3MTg4LjA3NDIxOSA4MC40NjA5MzggMjIuNjYwMTU2IDEwMS4wMzEyNSA1OS4xMjg5MDYgMS41MzkwNjIgMi4zNTE1NjMgNC4xNjAxNTYgMy43NjU2MjUgNi45Njg3NSAzLjc2NTYyNXM1LjQyOTY4OC0xLjQxNDA2MiA2Ljk2ODc1LTMuNzY1NjI1YzIwLjU3MDMxMi0zNi40Njg3NSA1OS4xNjQwNjItNTkuMDU0Njg3IDEwMS4wMzEyNS01OS4xMjg5MDYgNjEuODAwNzgxIDAgMTE2IDU3Ljk0NTMxMiAxMTYgMTI0IDAgMTUzLjQwNjI1LTE5NC42MTcxODggMjY2LjY4NzUtMjI0IDI4Mi45MDIzNDR6bTAgMCIgZmlsbD0iIzAwMDAwMCIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiIgY2xhc3M9IiI+PC9wYXRoPjwvZz48L3N2Zz4=">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+
+        <div class="main_box_product_3">
+            <div class="first_main_box_product_3">
+                <div>
+                    <h2 style="color: #282828;">NIKE AIR ZOOM SUPERREP 2</h2>
+                </div>
+                <div class="price_block_product_3 mt-4">
+                    <div>$199.00</div>
+                    <div style=" text-decoration: line-through;">$399.00</div>
+                    <div class="box_reduction__product_3">9 % off</div>
+                    <div class="rating_box_show_product_3">
+                        <span><i class="fas fa-star mt-2 text-center" aria-hidden="true"></i></span>
+                        <span><i class="fas fa-star mt-2 text-center" aria-hidden="true"></i></span>
+                        <span><i class="fas fa-star mt-2 text-center" aria-hidden="true"></i></span>
+                        <span><i class="fas fa-star mt-2 text-center" aria-hidden="true"></i></span>
+                    </div>
+                </div>
+                <div class="pattern_box_product_3 mt-4">
+                    <div>
+                        <div> Pattern: <span style="color: #666;" class="ml-3">Black</span> </div>
+                        <div class="mt-3" style="display: flex;">
+                            <div><img style=" border-color: rgb(1, 255, 112);" class="others_images"
+                                    src="assets/img/miniature_grid/penche_miniature1.png" alt="others_images"></div>
+                            <div><img class="others_images ml-2" src="assets/img/miniature_grid/penche_miniature2.jpg"
+                                    alt="others_images"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div> Size: <span style="color: #666;" class="ml-3">45</span></div>
+                        <div class="mt-3" style="display: flex; cursor:pointer">
+                            <div class="size_boxZ">45</div>
+                            <div class="ml-2 mt-1">30</div>
+                            <div class="ml-2 mt-1">35</div>
+                            <div class="ml-2 mt-1">48</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="quantity_box_product_3 mt-5">
+                    <div>
+                        <div class="select">
+                            <div class="first_select_element">
+                                <span class="txt_select_start"> Quantity</span>
+                                <i class="fas irier fa-angle-down mt-1"></i>
+                            </div>
+                            <div class="select_content  mt-1">
+                                <div class="select-item"><i class="fas fa-check"></i> <span
+                                        class="txt_select_content">1</span> </div>
+                                <div class="select-item"><i class="fas fa-check"></i> <span
+                                        class="txt_select_content">2</span> </div>
+                                <div class="select-item"><i class="fas fa-check"></i> <span
+                                        class="txt_select_content">3</span> </div>
+                                <div class="select-item"><i class="fas fa-check"></i> <span
+                                        class="txt_select_content">4</span> </div>
+                                <div class="select-item"><i class="fas fa-check"></i> <span
+                                        class="txt_select_content">5</span> </div>
+                                <div class="select-item"><i class="fas fa-check"></i> <span
+                                        class="txt_select_content">6</span> </div>
+                                <div class="select-item"><i class="fas fa-check"></i> <span
+                                        class="txt_select_content">7</span> </div>
+                                <div class="select-item"><i class="fas fa-check"></i> <span
+                                        class="txt_select_content">8</span> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="btn_more_show" style="background-color:#01FF70; color:white"><img
+                                style="width: 16px;"
+                                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoJPGc+CgkJPHBhdGggZD0iTTQ0Ny42NzUsNDk1LjU1NmwtMTYuMDMxLTM2OC43NGMtMC4zNS04LjAyMy02Ljk1NS0xNC4zNDktMTQuOTg2LTE0LjM0OWgtNjUuMzM1Vjk1LjMzNCAgICBDMzUxLjMyMiw0Mi43NjcsMzA4LjU1NiwwLDI1NS45ODksMHMtOTUuMzM0LDQyLjc2Ny05NS4zMzQsOTUuMzM0djE3LjEzM0g5NS4zMjRjLTguMDMxLDAtMTQuNjM3LDYuMzI1LTE0Ljk4NiwxNC4zNDkgICAgTDY0LjI3MSw0OTYuMzQ5Yy0wLjE3OCw0LjA4NywxLjMyMiw4LjA3LDQuMTUxLDExLjAyNWMyLjgzLDIuOTU1LDYuNzQzLDQuNjI2LDEwLjgzNSw0LjYyNmgzNTMuNDY3YzAuMDA4LDAsMC4wMTYsMCwwLjAyLDAgICAgYzguMjg1LDAsMTUtNi43MTYsMTUtMTVDNDQ3Ljc0Myw0OTYuNTEzLDQ0Ny43MjEsNDk2LjAzMSw0NDcuNjc1LDQ5NS41NTZ6IE0xOTAuNjU1LDk1LjMzNGMwLTM2LjAyNSwyOS4zMDktNjUuMzM0LDY1LjMzNC02NS4zMzQgICAgYzM2LjAyNCwwLDY1LjMzMywyOS4zMDksNjUuMzMzLDY1LjMzNHYxNy4xMzNIMTkwLjY1NVY5NS4zMzR6IE05NC45MjMsNDgybDE0Ljc2My0zMzkuNTMzaDI5Mi42MDlMNDE3LjA1OCw0ODJIOTQuOTIzeiIgZmlsbD0iI2ZmZmZmZiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiIgY2xhc3M9IiI+PC9wYXRoPgoJPC9nPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+Cgk8Zz4KCQk8cGF0aCBkPSJNMjU1Ljk5MSwyMTYuOWMtNTIuNTY3LDAtOTUuMzM0LDQyLjc2Ny05NS4zMzQsOTUuMzMzYzAsNTIuNTY2LDQyLjc2Nyw5NS4zMzMsOTUuMzM0LDk1LjMzMyAgICBjNTIuNTY2LDAsOTUuMzMyLTQyLjc2Nyw5NS4zMzItOTUuMzMzQzM1MS4zMjMsMjU5LjY2NywzMDguNTU4LDIxNi45LDI1NS45OTEsMjE2Ljl6IE0yNTUuOTkxLDM3Ny41NjYgICAgYy0zNi4wMjUsMC02NS4zMzQtMjkuMzA5LTY1LjMzNC02NS4zMzNjMC0zNi4wMjQsMjkuMzA5LTY1LjMzMyw2NS4zMzQtNjUuMzMzYzM2LjAyNCwwLDY1LjMzMiwyOS4zMDksNjUuMzMyLDY1LjMzMyAgICBDMzIxLjMyMywzNDguMjU3LDI5Mi4wMTYsMzc3LjU2NiwyNTUuOTkxLDM3Ny41NjZ6IiBmaWxsPSIjZmZmZmZmIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+Cgk8L2c+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KCTxnPgoJCTxwYXRoIGQ9Ik0yODguMTI0LDI5Ny4yMzNoLTE3LjEzM1YyODAuMWMwLTguMjg0LTYuNzE2LTE1LTE1LTE1Yy04LjI4NCwwLTE1LDYuNzE2LTE1LDE1djMyLjEzNGMwLDguMjg0LDYuNzE2LDE1LDE1LDE1aDMyLjEzMyAgICBjOC4yODQsMCwxNS02LjcxNiwxNS0xNVMyOTYuNDA4LDI5Ny4yMzMsMjg4LjEyNCwyOTcuMjMzeiIgZmlsbD0iI2ZmZmZmZiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiIgY2xhc3M9IiI+PC9wYXRoPgoJPC9nPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjwvZz48L3N2Zz4=" />
+                        </div>
+                    </div>
+                    <div>
+                        <div class="btn_more_show" style="background-color:white;color:#01FF70;"> <img
+                                style="width: 16px;"
+                                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoJPGc+CgkJPHBhdGggZD0iTTM3OC42NjcsMjEuMzMzYy01Ni43OTIsMC0xMDMuNjk4LDUyLjc1LTEyMi42NjcsNzcuNjQ2Yy0xOC45NjktMjQuODk2LTY1Ljg3NS03Ny42NDYtMTIyLjY2Ny03Ny42NDYgICAgQzU5LjgxMywyMS4zMzMsMCw4OC45MjcsMCwxNzJjMCw0NS4zMjMsMTcuOTksODcuNTYyLDQ5LjQ3OSwxMTYuNDY5YzAuNDU4LDAuNzkyLDEuMDIxLDEuNTIxLDEuNjc3LDIuMTc3bDE5Ny4zMTMsMTk2LjkwNiAgICBjMi4wODMsMi4wNzMsNC44MDIsMy4xMTUsNy41MzEsMy4xMTVzNS40NTgtMS4wNDIsNy41NDItMy4xMjVMNDY3LjQxNywyODMuNzRsMi4xMDQtMi4wNDJjMS42NjctMS41NzMsMy4zMTMtMy4xNjcsNS4xNTYtNS4yMDggICAgYzAuNzcxLTAuNzYsMS40MDYtMS42MTUsMS44OTYtMi41NDJDNDk5LjQzOCwyNDUuOTQ4LDUxMiwyMDkuODMzLDUxMiwxNzJDNTEyLDg4LjkyNyw0NTIuMTg4LDIxLjMzMywzNzguNjY3LDIxLjMzM3ogICAgIE00NTguODIzLDI2MS45NDhjLTAuMjkyLDAuMzQ0LTAuNTYzLDAuNzA4LTAuODAyLDEuMDgzYy0xLDEuMTQ2LTIuMDk0LDIuMTU2LTMuMTc3LDMuMTg4TDI1NS45OSw0NjQuOTI3TDY4LjY2NywyNzcuOTc5ICAgIGMtMC42MDQtMS4xODgtMS40NDgtMi4yNzEtMi40NzktMy4xNzdDMzcuNjc3LDI0OS45MDYsMjEuMzMzLDIxMi40MzcsMjEuMzMzLDE3MmMwLTcxLjMxMyw1MC4yNC0xMjkuMzMzLDExMi0xMjkuMzMzICAgIGM2MS4wNjMsMCwxMTMuMTc3LDc5LjY0NiwxMTMuNjk4LDgwLjQ0OGMzLjkzOCw2LjA4MywxNCw2LjA4MywxNy45MzgsMGMwLjUyMS0wLjgwMiw1Mi42MzUtODAuNDQ4LDExMy42OTgtODAuNDQ4ICAgIGM2MS43NiwwLDExMiw1OC4wMjEsMTEyLDEyOS4zMzNDNDkwLjY2NywyMDUuNjA0LDQ3OS4zNTQsMjM3LjU1Miw0NTguODIzLDI2MS45NDh6IiBmaWxsPSIjMDFmZjcwIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIj48L3BhdGg+Cgk8L2c+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPC9nPjwvc3ZnPg==" />
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-5" style="display:flex">
+                    <div>
+                        <h5>Share : </h5>
+                    </div>
+                    <div class="ml-3"><img style="width:20px"
+                            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoJPHBhdGggZD0iTTIyMi44OTIsMzg4aDUxLjQ5MWM0LjQxOCwwLDgtMy41ODIsOC04VjI2NC4wOTNoMjYuNzUxYzQuMTAxLDAsNy41MzgtMy4xMDEsNy45NTgtNy4xOGw0LjUxLTQzLjc3MiAgIGMwLjIzMi0yLjI1Mi0wLjUwMS00LjQ5OC0yLjAxOS02LjE3OWMtMS41MTctMS42ODItMy42NzUtMi42NDEtNS45MzktMi42NDFoLTMxLjI2MXYtMTcuNzNjMC0zLjY2MiwxLjE1OS0zLjkzNiwyLjkyOC0zLjkzNiAgIGgyNy42ODJjNC40MTgsMCw4LTMuNTgyLDgtOHYtNDIuNWMwLTQuNDA2LTMuNTYyLTcuOTgyLTcuOTY4LThMMjc0Ljg0OCwxMjRjLTI2Ljc1MiwwLTQxLjAyOSwxMS43Ny00OC4yOTUsMjEuNjQzICAgYy0xMC4xNDYsMTMuNzg3LTExLjY2MSwyOS45NDEtMTEuNjYxLDM4LjM0M3YyMC4zMzRoLTE2LjQ4OWMtNC40MTgsMC04LDMuNTgyLTgsOHY0My43NzJjMCw0LjQxOCwzLjU4Miw4LDgsOGgxNi40ODlWMzgwICAgQzIxNC44OTIsMzg0LjQxOCwyMTguNDczLDM4OCwyMjIuODkyLDM4OHogTTIwNi40MDIsMjQ4LjA5M3YtMjcuNzcyaDE2LjQ4OWM0LjQxOCwwLDgtMy41ODIsOC04di0yOC4zMzQgICBjMC01LjE4NSwwLjgzMy0xOC4zNzYsOC41NDctMjguODZjNy4zODYtMTAuMDM3LDE5LjMtMTUuMTI2LDM1LjM3Ni0xNS4xMjZsMzAuMTc3LDAuMTIydjI2LjUzM2gtMTkuNjgyICAgYy05LjQyMSwwLTE4LjkyOCw2LjE2NC0xOC45MjgsMTkuOTM2djI1LjczYzAsNC40MTgsMy41ODIsOCw4LDhoMzAuMzk1bC0yLjg2MiwyNy43NzJoLTI3LjUzM2MtNC40MTgsMC04LDMuNTgyLTgsOFYzNzJoLTM1LjQ5MSAgIFYyNTYuMDkzYzAtNC40MTgtMy41ODItOC04LThIMjA2LjQwMnoiIGZpbGw9IiMwMDAwMDAiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIHN0eWxlPSIiPjwvcGF0aD4KCTxwYXRoIGQ9Ik00MzcuMDIyLDc0Ljk4NEMzODguNjcsMjYuNjMsMzI0LjM4MSwwLDI1NiwwQzE4Ny42MjQsMCwxMjMuMzM4LDI2LjYzLDc0Ljk4NCw3NC45ODRTMCwxODcuNjI0LDAsMjU2ICAgYzAsNjguMzg4LDI2LjYzLDEzMi42NzgsNzQuOTg0LDE4MS4wMjhDMTIzLjMzNSw0ODUuMzc1LDE4Ny42MjEsNTEyLDI1Niw1MTJjNjguMzg1LDAsMTMyLjY3My0yNi42MjUsMTgxLjAyMS03NC45NzIgICBDNDg1LjM3MiwzODguNjc5LDUxMiwzMjQuMzg5LDUxMiwyNTZDNTEyLDE4Ny42MjIsNDg1LjM3MiwxMjMuMzM2LDQzNy4wMjIsNzQuOTg0eiBNNDI1LjcwOCw0MjUuNzE0ICAgQzM4MC4zODEsNDcxLjAzOSwzMjAuMTExLDQ5NiwyNTYsNDk2Yy02NC4xMDYsMC0xMjQuMzc0LTI0Ljk2MS0xNjkuNzAzLTcwLjI4NkM0MC45NjUsMzgwLjM4NiwxNiwzMjAuMTEzLDE2LDI1NiAgIGMwLTY0LjEwMiwyNC45NjUtMTI0LjM3LDcwLjI5Ny0xNjkuNzAyQzEzMS42Myw0MC45NjUsMTkxLjg5OCwxNiwyNTYsMTZjNjQuMTA4LDAsMTI0LjM3OCwyNC45NjUsMTY5LjcwOCw3MC4yOTcgICBDNDcxLjAzNywxMzEuNjI4LDQ5NiwxOTEuODk2LDQ5NiwyNTZDNDk2LDMyMC4xMTUsNDcxLjAzNywzODAuMzg3LDQyNS43MDgsNDI1LjcxNHoiIGZpbGw9IiMwMDAwMDAiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIHN0eWxlPSIiPjwvcGF0aD4KCTxwYXRoIGQ9Ik00MzAuMDM4LDExNC45NjljLTIuNzg0LTMuNDMyLTcuODIxLTMuOTU3LTExLjI1My0xLjE3MmMtMy40MzEsMi43ODQtMy45NTYsNy44MjItMS4xNzIsMTEuMjUyICAgQzQ0Ny41MjYsMTYxLjkxOSw0NjQsMjA4LjQyNSw0NjQsMjU2YzAsNTUuNTY3LTIxLjYzNSwxMDcuODAzLTYwLjkxOSwxNDcuMDg2QzM2My43OTcsNDQyLjM2NywzMTEuNTYzLDQ2NCwyNTYsNDY0ICAgYy01MS4yNiwwLTEwMC41MDUtMTguODA3LTEzOC42NjMtNTIuOTU2Yy0zLjI5Mi0yLjk0Ni04LjM1LTIuNjY2LTExLjI5NiwwLjYyNmMtMi45NDYsMy4yOTItMi42NjYsOC4zNSwwLjYyNiwxMS4yOTYgICBDMTQ3Ljc2Myw0NTkuNzQ1LDIwMC43OTcsNDgwLDI1Niw0ODBjNTkuODM3LDAsMTE2LjA4OS0yMy4yOTcsMTU4LjM5NC02NS42MDFDNDU2LjcwMSwzNzIuMDk0LDQ4MCwzMTUuODQsNDgwLDI1NiAgIEM0ODAsMjA0Ljc2Niw0NjIuMjU2LDE1NC42ODEsNDMwLjAzOCwxMTQuOTY5eiIgZmlsbD0iIzAwMDAwMCIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiI+PC9wYXRoPgoJPHBhdGggZD0iTTQ4LDI1NmMwLTExNC42OTEsOTMuMzA5LTIwOCwyMDgtMjA4YzUxLjI2LDAsMTAwLjUwNCwxOC44MDgsMTM4LjY2Miw1Mi45NTljMy4yOTMsMi45NDgsOC4zNTEsMi42NjYsMTEuMjk2LTAuNjI1ICAgYzIuOTQ3LTMuMjkyLDIuNjY3LTguMzUtMC42MjUtMTEuMjk2QzM2NC4yMzcsNTIuMjU2LDMxMS4yMDMsMzIsMjU2LDMyYy01OS44MjksMC0xMTYuMDc5LDIzLjMwMS0xNTguMzg5LDY1LjYxMSAgIEM1NS4zMDEsMTM5LjkyLDMyLDE5Ni4xNzEsMzIsMjU2YzAsNTEuMjQsMTcuNzQ0LDEwMS4zMjgsNDkuOTYzLDE0MS4wMzhjMS41ODEsMS45NDksMy44ODksMi45Niw2LjIxNywyLjk2ICAgYzEuNzcxLDAsMy41NTMtMC41ODUsNS4wMzYtMS43ODhjMy40MzEtMi43ODQsMy45NTYtNy44MjIsMS4xNzItMTEuMjUzQzY0LjQ3NCwzNTAuMDg4LDQ4LDMwMy41OCw0OCwyNTZ6IiBmaWxsPSIjMDAwMDAwIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIj48L3BhdGg+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPC9nPjwvc3ZnPg==" />
+                    </div>
+                    <div class="ml-3"><img style="width:20px"
+                            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDQ4MCA0ODAiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnPjxwYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZD0ibTI0MCAwYy0xMzIuNTQ2ODc1IDAtMjQwIDEwNy40NTMxMjUtMjQwIDI0MHMxMDcuNDUzMTI1IDI0MCAyNDAgMjQwIDI0MC0xMDcuNDUzMTI1IDI0MC0yNDBjLS4xNDg0MzgtMTMyLjQ4NDM3NS0xMDcuNTE1NjI1LTIzOS44NTE1NjItMjQwLTI0MHptMCA0NjRjLTEyMy43MTA5MzggMC0yMjQtMTAwLjI4OTA2Mi0yMjQtMjI0czEwMC4yODkwNjItMjI0IDIyNC0yMjQgMjI0IDEwMC4yODkwNjIgMjI0IDIyNGMtLjE0MDYyNSAxMjMuNjUyMzQ0LTEwMC4zNDc2NTYgMjIzLjg1OTM3NS0yMjQgMjI0em0wIDAiIGZpbGw9IiMwMDAwMDAiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIHN0eWxlPSIiIGNsYXNzPSIiPjwvcGF0aD48cGF0aCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGQ9Im0zNDQgOTZoLTIwOGMtMjIuMDgyMDMxLjAyNzM0NC0zOS45NzI2NTYgMTcuOTE3OTY5LTQwIDQwdjIwOGMuMDI3MzQ0IDIyLjA4MjAzMSAxNy45MTc5NjkgMzkuOTcyNjU2IDQwIDQwaDIwOGMyMi4wODIwMzEtLjAyNzM0NCAzOS45NzI2NTYtMTcuOTE3OTY5IDQwLTQwdi0yMDhjLS4wMjczNDQtMjIuMDgyMDMxLTE3LjkxNzk2OS0zOS45NzI2NTYtNDAtNDB6bTI0IDI0OGMwIDEzLjI1MzkwNi0xMC43NDYwOTQgMjQtMjQgMjRoLTIwOGMtMTMuMjUzOTA2IDAtMjQtMTAuNzQ2MDk0LTI0LTI0di0yMDhjMC0xMy4yNTM5MDYgMTAuNzQ2MDk0LTI0IDI0LTI0aDIwOGMxMy4yNTM5MDYgMCAyNCAxMC43NDYwOTQgMjQgMjR6bTAgMCIgZmlsbD0iIzAwMDAwMCIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiIgY2xhc3M9IiI+PC9wYXRoPjxwYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZD0ibTI0MCAxNjBjLTQ0LjE4MzU5NCAwLTgwIDM1LjgxNjQwNi04MCA4MHMzNS44MTY0MDYgODAgODAgODAgODAtMzUuODE2NDA2IDgwLTgwYy0uMDQ2ODc1LTQ0LjE2NDA2Mi0zNS44MzU5MzgtNzkuOTUzMTI1LTgwLTgwem0wIDE0NGMtMzUuMzQ3NjU2IDAtNjQtMjguNjUyMzQ0LTY0LTY0czI4LjY1MjM0NC02NCA2NC02NCA2NCAyOC42NTIzNDQgNjQgNjRjLS4wMzkwNjIgMzUuMzI4MTI1LTI4LjY3MTg3NSA2My45NjA5MzgtNjQgNjR6bTAgMCIgZmlsbD0iIzAwMDAwMCIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiIgY2xhc3M9IiI+PC9wYXRoPjxwYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZD0ibTMyOCAxMjhjLTEzLjI1MzkwNiAwLTI0IDEwLjc0NjA5NC0yNCAyNHMxMC43NDYwOTQgMjQgMjQgMjQgMjQtMTAuNzQ2MDk0IDI0LTI0LTEwLjc0NjA5NC0yNC0yNC0yNHptMCAzMmMtNC40MTc5NjkgMC04LTMuNTgyMDMxLTgtOHMzLjU4MjAzMS04IDgtOCA4IDMuNTgyMDMxIDggOC0zLjU4MjAzMSA4LTggOHptMCAwIiBmaWxsPSIjMDAwMDAwIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+PC9nPjwvc3ZnPg==" />
+                    </div>
+                    <div class="ml-3"><img style="width:20px"
+                            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoJPGc+CgkJPHBhdGggZD0iTTQzNy4wMiw3NC45ODFDMzg4LjY2NywyNi42MjksMzI0LjM4LDAsMjU2LDBTMTIzLjMzMywyNi42MjksNzQuOTgsNzQuOTgxQzI2LjYyOSwxMjMuMzMzLDAsMTg3LjYyLDAsMjU2ICAgIGMwLDEwMS44OTYsNjAuMzc5LDE5NC4wNSwxNTMuODIyLDIzNC43NzNjMS4yNzksMC41NTgsMi42NCwwLjgzMywzLjk5NCwwLjgzM2MxLjkwNCwwLDMuNzk2LTAuNTQzLDUuNDQ0LTEuNjA2ICAgIGMyLjgxNi0xLjgyNSw0LjUyOS00Ljk0MSw0LjU2MS04LjI5NmMwLjIyLTIyLjk1MSwyLjkzMi00NS45MSw4LjA0LTY4LjE2M2wyNS41MzQtMTA3LjQzOWMxLjY4Ni03LjA5NSwxLjkxMS0xNC4zMzksMC42NzEtMjEuNTMgICAgbC0zLjM5Ni0xOS42NTVjLTAuMjk0LTEuNjk4LTAuNDQyLTMuNDM0LTAuNDQyLTUuMTYydi01LjEyNWMwLTE2LjMxMyw0Ljc0NS0zMi4xMzMsMTMuNzIzLTQ1Ljc1ICAgIGM0LjY2Ny03LjA3OSwxMi41MTQtMTEuMzA3LDIwLjk5MS0xMS4zMDhoMC42ODhjMC4wMDIsMCwwLjAwMiwwLDAuMDA1LDBjMTEuMTUyLDAsMjAuODQ5LDcuNjI0LDIzLjU3OSwxOC41NDRsMC4yNzcsMS4xMDcgICAgYzEuOTcyLDcuODg5LDEuOTQ0LDE2LjIyMS0wLjA3OSwyNC4wOTZsLTE4LjU3Miw3Mi4yODJjLTMuNDU0LDEzLjQ0NC0wLjU4OSwyNy40ODEsNy44NjIsMzguNTExICAgIGM4LjMyMiwxMC44NjMsMjAuODksMTcuMTg1LDM0LjQ5NCwxNy4zNDVsMC42NDksMC4wMDRjNTIuOTQ5LDAsOTEuMzgxLTU0LjA2NCw5MS4zODEtMTI4LjU1MiAgICBjMC0zMi42OTQtMTEuODA3LTYyLjE5NS0zMy4yNDUtODMuMDY4Yy0yMS4zNjEtMjAuNzk3LTUxLjUxLTMyLjI1MS04NC44OTQtMzIuMjUxYy0zNy4zNzYsMC02OS42NCwxMy4wOS05My4zMDEsMzcuODUzICAgIGMtMjEuMzUyLDIyLjM0NS0zMy41OTcsNTMuMTQyLTMzLjU5Nyw4NC40OTVjMCwxOS41Miw2LjExNSw0MS41NzQsMTUuOTU5LDU3LjU1NGMxLjMxNywyLjEzOSwxLjYxNSw0LjY3OCwwLjgxNyw2Ljk2NSAgICBsLTUuNjYxLDE2LjIyYy0wLjQxMywxLjE4My0xLjM1MiwxLjU5Mi0xLjg3NSwxLjczYy0wLjYyLDAuMTY2LTEuNTQsMC4yMDItMi40MDMtMC41NTEgICAgYy0xOS44MDEtMTcuMjgtMzQuMTcyLTUyLjEzOC0zNC4xNzItODIuODg3YzAtNzIuNjA3LDQ3LjQxNS0xMjguNzE5LDEyMC43OTUtMTQyLjk1YzUuNDIyLTEuMDUyLDguOTY0LTYuMjk5LDcuOTEzLTExLjcyMSAgICBjLTEuMDUyLTUuNDIyLTYuMzAyLTguOTctMTEuNzIyLTcuOTEzYy00Mi4zMTUsOC4yMDctNzcuNTk4LDI4LjgyMS0xMDIuMDMzLDU5LjYxNGMtMjIuNTQsMjguNDA1LTM0Ljk1Myw2NC45NzMtMzQuOTUzLDEwMi45NyAgICBjMCwzNi41OTgsMTYuODY5LDc2Ljg3OCw0MS4wMjIsOTcuOTU2YzUuNjY1LDQuOTQyLDEzLjM5NCw2Ljc0MywyMC42NzEsNC44MTVjNy4zMDUtMS45MzQsMTMuMTUyLTcuMzQ1LDE1LjY0LTE0LjQ3NSAgICBsNS42NjEtMTYuMjIxYzIuNzg5LTcuOTk0LDEuODE1LTE2Ljc1Ny0yLjY3MS0yNC4wNDJjLTcuODktMTIuODEtMTIuOTg4LTMxLjI4My0xMi45ODgtNDcuMDY2ICAgIGMwLTQ5LjYxNiwzNy40NjQtMTAyLjM0OCwxMDYuODk3LTEwMi4zNDhjNTcuNzgzLDAsOTguMTM5LDM5LjE5Niw5OC4xMzksOTUuMzE5YzAsMzEuNTA1LTcuNjgzLDU5Ljg0OS0yMS42MzIsNzkuODEyICAgIGMtMTIuOTUyLDE4LjUzMy0zMC42MTksMjguNzQtNDkuNzQ5LDI4Ljc0bC0wLjQyMy0wLjAwMmMtNy40MTMtMC4wODgtMTQuMjgxLTMuNTU0LTE4Ljg0NC05LjUxICAgIGMtNC42OTItNi4xMjQtNi4yODQtMTMuOTEzLTQuMzY4LTIxLjM3bDE4LjU3Mi03Mi4yODJjMi44NDgtMTEuMDg3LDIuODg3LTIyLjgxOCwwLjEwOS0zMy45MjhsLTAuMjc3LTEuMTA3ICAgIGMtNC45NTktMTkuODM3LTIyLjYzMi0zMy42OS00Mi45NzktMzMuNjljLTAuMDAzLDAtMC4wMDYsMC0wLjAwOSwwaC0wLjY4OGMtMTUuMjIsMC4wMDMtMjkuMzA5LDcuNTkxLTM3LjY4NywyMC4yOTkgICAgYy0xMS4xMzcsMTYuODk0LTE3LjAyNSwzNi41MjEtMTcuMDI1LDU2Ljc1OHY1LjEyNWMwLDIuODY0LDAuMjQ3LDUuNzQ3LDAuNzMzLDguNTY2bDMuMzk2LDE5LjY1NCAgICBjMC43NzgsNC41MSwwLjYzNyw5LjA1My0wLjQyMSwxMy41MDNsLTI1LjU1LDEwNy41MTNjLTQuMjk4LDE4LjcxNi02Ljk5OSwzNy44NDUtOC4wNjMsNTcuMDZDNjkuODk3LDQyNS44MjYsMjAsMzQ0LjkzOCwyMCwyNTYgICAgQzIwLDEyNS44NjksMTI1Ljg2OSwyMCwyNTYsMjBzMjM2LDEwNS44NjksMjM2LDIzNmMwLDY0LjcyNy0yNS42ODQsMTI1LjEwNS03Mi4zMiwxNzAuMDE0Yy0zLjk3OSwzLjgzMS00LjA5OCwxMC4xNjEtMC4yNjcsMTQuMTQgICAgYzMuODMyLDMuOTc4LDEwLjE2MSw0LjA5OCwxNC4xNCwwLjI2N2MyNC41NC0yMy42MzEsNDMuODM2LTUxLjM5LDU3LjM1NC04Mi41MDVDNTA0LjkwMywzMjUuNjk4LDUxMiwyOTEuNDA5LDUxMiwyNTYgICAgQzUxMiwxODcuNjIsNDg1LjM3MSwxMjMuMzMzLDQzNy4wMiw3NC45ODF6IiBmaWxsPSIjMDAwMDAwIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+Cgk8L2c+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KCTxnPgoJCTxwYXRoIGQ9Ik00MDAuMTI1LDQ1NS42NmMtMy4wNDEtNC42MDktOS4yNDItNS44ODEtMTMuODU0LTIuODM5bC0wLjcyMywwLjQ3OGMtNC42MSwzLjA0MS01Ljg4MSw5LjI0NS0yLjgzOSwxMy44NTQgICAgYzEuOTIyLDIuOTE0LDUuMTA4LDQuNDkzLDguMzU1LDQuNDkzYzEuODkxLDAsMy44MDMtMC41MzYsNS40OTktMS42NTRsMC43MjMtMC40NzggICAgQzQwMS44OTYsNDY2LjQ3Myw0MDMuMTY3LDQ2MC4yNjksNDAwLjEyNSw0NTUuNjZ6IiBmaWxsPSIjMDAwMDAwIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+Cgk8L2c+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KCTxnPgoJCTxwYXRoIGQ9Ik0zOTYuNzA0LDE0MS4xMjRjLTIyLjIxOS0yNy4xMzktNTIuODgyLTQ2LjIzLTg4LjY3NS01NS4yMDljLTUuMzU3LTEuMzQ1LTEwLjc5LDEuOTA5LTEyLjEzMyw3LjI2NiAgICBzMS45MSwxMC43ODksNy4yNjYsMTIuMTMzYzY0LjgwNywxNi4yNTcsMTA4LjM0OCw3MC4zMTQsMTA4LjM0OCwxMzQuNTE1YzAsODYuMDk4LTUzLjQ1NiwxNTEuMDI1LTEyNC4zNDQsMTUxLjAyNSAgICBjLTE3LjYyNSwwLTM3LjYxNy0xMC4zNjctNDcuNDc5LTIwLjEyMWMtMi41NDUtMi41MTctNi4yNDQtMy40ODItOS42OTYtMi41MjljLTMuNDUyLDAuOTU0LTYuMTI5LDMuNjgxLTcuMDIxLDcuMTVsLTcuMTk3LDI4LjAxMiAgICBjLTcuMjAxLDI4LjAyNC0xNy43NzQsNTUuMTcyLTMxLjQyNCw4MC42ODhsLTIuMzkyLDQuNDdjLTEuNDM0LDIuNjgyLTEuNTcxLDUuODcxLTAuMzcsOC42NjZjMS4yMDEsMi43OTUsMy42MDgsNC44OSw2LjU0Miw1LjY5NSAgICBDMjEwLjE3Niw1MDguOTM0LDIzMy4wMTEsNTEyLDI1Niw1MTJjMzEuNTEyLDAsNjIuMjg0LTUuNjYxLDkxLjQ2Mi0xNi44MjVjNS4xNTktMS45NzQsNy43NDEtNy43NTUsNS43NjctMTIuOTEzICAgIGMtMS45NzUtNS4xNi03Ljc1OC03LjczOC0xMi45MTMtNS43NjdDMzEzLjQyOCw0ODYuNzgzLDI4NS4wNiw0OTIsMjU2LDQ5MmMtMTcsMC0zMy45MDUtMS44MTctNTAuNDE1LTUuNDEyICAgIGMxMi42NzQtMjQuOSwyMi42MDYtNTEuMTg1LDI5LjU1OS03OC4yNDZsMy4zODItMTMuMTY0YzEzLjI1OSw4LjYyOCwzMS4wNCwxNS42NzYsNDguNjQxLDE1LjY3NiAgICBjNDAuNDEyLDAsNzcuNDE0LTE4LjAxMywxMDQuMTktNTAuNzIxYzI1Ljg5My0zMS42Myw0MC4xNTMtNzQuMzU1LDQwLjE1My0xMjAuMzA1ICAgIEM0MzEuNTEsMjAzLjA2OSw0MTkuNDc0LDE2OC45MzcsMzk2LjcwNCwxNDEuMTI0eiIgZmlsbD0iIzAwMDAwMCIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiIgY2xhc3M9IiI+PC9wYXRoPgoJPC9nPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+Cgk8Zz4KCQk8cGF0aCBkPSJNMjYzLjU5Nyw4MC4zMTVjLTAuNTYyLTAuMDA1LTEuMTI3LTAuMDA3LTEuNjktMC4wMDdjLTUuNTIyLDAtMTAsNC40NzctMTAsMTBzNC40NzgsMTAsMTAsMTAgICAgYzAuNTAzLDAsMS4wMDUsMC4wMDIsMS41MDcsMC4wMDZjMC4wMzEsMCwwLjA2MywwLDAuMDk0LDBjNS40NzksMCw5Ljk0Ny00LjQxNyw5Ljk5Ny05LjkwOCAgICBDMjczLjU1NSw4NC44ODQsMjY5LjExOSw4MC4zNjYsMjYzLjU5Nyw4MC4zMTV6IiBmaWxsPSIjMDAwMDAwIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+Cgk8L2c+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPC9nPjwvc3ZnPg==" />
+                    </div>
+                </div>
+            </div>
+            <div class="second_main_box_product_3" style="margin-top:-20px;">
+                <div id="demo" class="carousel slide" data-ride="false">
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="main_over_view_image col-lg-12" src="assets/img/97-1.jpg" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="main_over_view_image col-lg-12" src="assets/img/miniature_grid/penche1.jpg"
+                                alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="main_over_view_image col-lg-12" src="assets/img/miniature_grid/penche2.jpg"
+                                alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="main_over_view_image col-lg-12" src="assets/img/miniature_grid/penche3.jpg"
+                                alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="main_over_view_image col-lg-12" src="assets/img/miniature_grid/penche4.jpg"
+                                alt="">
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h4 class="mt-5">Description
+                <hr>
+            </h4>
+            <div class="mt-3" style="color: #686868;">
+                <p class="mt-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit temporibus
+                    explicabo illo eum exercitationem</p>
+                <ul>
+                    <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </li>
+                    <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero est molestiae perspiciatis
+                        molestias fugiat quasi ea aut ratione. </li>
+                    <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero est molestiae perspiciatis
+                        molestias fugiat quasi ea aut ratione. </li>
+                    <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero est molestiae perspiciatis
+                        molestias fugiat quasi ea aut ratione. </li>
+                    <h4 class="mt-5" style="color: black;">Short blouse shirt with V-neck</h4>
+                    <p class="mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe minus nostrum nobis
+                        perspiciatis aspernatur?</p>
+                    <p class="mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa illo pariatur facere
+                        nihil inventore sapiente provident consequuntur quam perferendis blanditiis architecto quia
+                        laborum, earum a dignissimos error ea reiciendis alias.</p>
+                </ul>
+            </div>
+            <h4 class="mt-5">Additional information
+                <hr>
+            </h4>
+            <div class="container mt-5">
+                <div class="row ">
+                    <div class="col-lg-2">
+                        <h6 style="text-transform: uppercase;">Pattern</h6>
+                    </div>
+                    <div>
+                        <h6 style="color: #686868;">Black</h6>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-lg-2">
+                        <h6 style="text-transform: uppercase;">Size</h6>
+                    </div>
+                    <div>
+                        <h6 style="color: #686868;">30, 45, 48, 30</h6>
+                    </div>
+                </div>
+            </div>
+            <h4 class="mt-5">2 reviews
+                <hr>
+            </h4>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-1">
+                        <img style="border-radius: 50%;"
+                            src="https://secure.gravatar.com/avatar/93f8c919ba78f69b5544acec1062f483?s=60&d=mm&r=g"
+                            alt="">
+                    </div>
+                    <div class="col-lg-9">
+                        <h6>Bull Jimmy</h6>
+                        <span style="font-size: 14px;color: #686868;">March 17, 2019</span>
+                        <p class="mt-3" style="color: #686868;">Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Deserunt culpa fugiat at quo natus, in ea molestiae exercitationem vitae molestias,
+                            error consequatur, pariatur quia a omnis doloremque. Aperiam, debitis dicta.</p>
+                    </div>
+                    <div class="col-lg-2">
+                        <span><i class="fas fa-star mt-2 text-center" aria-hidden="true"></i></span>
+                        <span><i class="fas fa-star mt-2 text-center" aria-hidden="true"></i></span>
+                        <span><i class="fas fa-star mt-2 text-center" aria-hidden="true"></i></span>
+                        <span><i class="fas fa-star mt-2 text-center" aria-hidden="true"></i></span>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-lg-1">
+                        <img style="border-radius: 50%;"
+                            src="https://secure.gravatar.com/avatar/93f8c919ba78f69b5544acec1062f483?s=60&d=mm&r=g"
+                            alt="">
+                    </div>
+                    <div class="col-lg-9">
+                        <h6>Bull Satta</h6>
+                        <span style="font-size: 14px;color: #686868;">March 17, 2019</span>
+                        <p class="mt-3" style="color: #686868;">Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Deserunt culpa fugiat at quo natus, in ea molestiae exercitationem vitae molestias,
+                            error consequatur, pariatur quia a omnis doloremque. Aperiam, debitis dicta.</p>
+                    </div>
+                    <div class="col-lg-2">
+                        <span><i class="fas fa-star mt-2 text-center" aria-hidden="true"></i></span>
+                        <span><i class="fas fa-star mt-2 text-center" aria-hidden="true"></i></span>
+                        <span><i class="fas fa-star mt-2 text-center" aria-hidden="true"></i></span>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-lg-1">
+                        <img style="border-radius: 50%;"
+                            src="https://secure.gravatar.com/avatar/93f8c919ba78f69b5544acec1062f483?s=60&d=mm&r=g"
+                            alt="">
+                    </div>
+                    <div class="col-lg-9">
+                        <h6>Bull Ange</h6>
+                        <span style="font-size: 14px;color: #686868;">March 17, 2019</span>
+                        <p class="mt-3" style="color: #686868;">Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Deserunt culpa fugiat at quo natus, in ea molestiae exercitationem vitae molestias,
+                            error consequatur, pariatur quia a omnis doloremque. Aperiam, debitis dicta.</p>
+                    </div>
+                    <div class="col-lg-2">
+                        <span><i class="fas fa-star mt-2 text-center" aria-hidden="true"></i></span>
+                        <span><i class="fas fa-star mt-2 text-center" aria-hidden="true"></i></span>
+                        <span><i class="fas fa-star mt-2 text-center" aria-hidden="true"></i></span>
+                        <span><i class="fas fa-star mt-2 text-center" aria-hidden="true"></i></span>
+                        <span><i class="fas fa-star mt-2 text-center" aria-hidden="true"></i></span>
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </div>
+
+
+        <div class="mt-5" style="display: flex; justify-content:center">
+            <div class="block_title_add_review">Add a review</div>
+        </div>
+        <div class="client_reviews mt-5">
+            <div>
+                <p style="color: #666;">Your email address will not be published. Required fields are marked *</p>
+                <div class="rating_block">
+                    <p>Your rating *</p>
+                    <span class="ml-5"> <i class='far fa-star mt-2 text-center'></i></span>
+                    <span class="ml-3"><i class='far fa-star mt-2 text-center'></i></span>
+                    <span class="ml-3"> <i class='far fa-star mt-2 text-center'></i></span>
+                    <span class="ml-3"> <i class='far fa-star mt-2 text-center'></i></span>
+                    <span class="ml-3"> <i class='far fa-star mt-2 text-center'></i></span>
+                </div>
+                <div class="mt-5">
+                    <textarea id="comment_txt" placeholder="Your Review*" name="comment" cols="45" rows="5"
+                        required=""></textarea>
+                </div>
+                <div class="block_txt_name_email mt-3">
+                    <div><input type="text" placeholder="Name *"></div>
+                    <div><input type="text" placeholder="Email *"></div>
+                </div>
+                <div class="mt-5" style="display: flex; justify-content:center">
+                    <button onclick="window.location.href='#'"
+                        class="btn_carou_buy_now_big btn_by_now_simple btn_by_now_simple_add mt-5 add_cart">
+                        <span class="ml-2">Add Review</span> <i class="fas fa-arrow-right ml-2"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="block_show_miniature_big">
+            <!---SHOW EACH MINIATURE IN BIG AFTER CLICK ON IT -->
+            <div class="btn_close_big_miniature"
+                style="position:fixed; top:10px; right:20px; cursor:pointer; z-index:1000;"><i style="font-size: 25px;"
+                    class="fa fa-times" aria-hidden="true"></i></div>
+
+
+            <div class="pop_up_miniature_block">
+                <img class="col-lg-3 mt-2 miniature_images" src="assets/img/97-1.jpg" alt="image">
+                <img class="col-lg-3 mt-2 miniature_images" src="assets/img/miniature_grid/penche1.jpg" alt="image">
+                <img class="col-lg-3 mt-2 miniature_images" src="assets/img/miniature_grid/penche2.jpg" alt="image">
+                <img class="col-lg-3 mt-2 miniature_images" src="assets/img/miniature_grid/penche3.jpg" alt="image">
+                <img class="col-lg-3 mt-2 miniature_images" src="assets/img/miniature_grid/penche4.jpg" alt="image">
+            </div>
+
+            <div class="main_description_image_block main_pop_up_description_image_block">
+                <div>
+                    <img id="contain_big_miniature_images"
+                        class="col-lg-8 contain_big_miniature_images img_receiving_miniature" src=""
+                        alt="img_receiving_miniature">
+                </div>
+            </div>
+        </div>
+
+        <div class="container" data-aos="fade-down" data-aos-duration="1000" style="margin-top: 150px;">
+            <div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h5>Mactching With</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row mt-3">
+                    <div class="block_counter_carou_responsive txt_counter">
+                        1
+                        <!-- TEXT THAT SHOW THE EVOLUTION OF THE CAROUSEL  -->
+                    </div>
+                    <div class="col-lg-1  col-2 ml-2  block_separator_carou_responsive"></div>
+                    <div class="ml-2 block_counter_carou_responsive txt_all_item_carou">
+                        1
+                        <!-- TEXT THAT SHOW THE MAXIMUM ELEMENT OF THE CAROUSEL  -->
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel owl-theme  carou_responsive_div mt-3 ">
+                <div>
+                    <div class="heart_block"><i style="font-size:15px" class='far  fa-heart mt-1 wish_on_product'></i>
+                    </div>
+                    <!--  <div class="quick_view_block"><i style="font-size:15px" class='fas fa-arrows-alt mt-1 wish_on_product'></i></div>-->
+                    <a href="">
+                        <img class="col-lg-12 principale_grid_image" src="assets/img/gridy1.jpg" alt="">
+                    </a>
+                    <div class="row mt-3 twopx-gutter">
+                        <div class="col-lg-3 col-3 col-sm-3"><img class="col-lg-11 miniature_grid"
+                                src="assets/img/miniature_grid/97-1.jpg" alt=""></div>
+                        <div class="col-lg-3 col-3 col-sm-3"><img class="col-lg-11 miniature_grid"
+                                src="assets/img/miniature_grid/97-2.jpg" alt=""></div>
+                        <div class="col-lg-3 col-3 col-sm-3"><img class="col-lg-11 miniature_grid"
+                                src="assets/img/miniature_grid/97-3.jpg" alt=""></div>
+                        <h6 class="ml-3 sub_title_grid_element txt_color_shows">3 Colors</h6>
+                    </div>
+                    <a href="">
+                        <h3 class="mt-3 ml-3" style="font-size: 20px;">Nike Air Max 97</h3>
+                        <h6 class="ml-3 sub_title_grid_element">Shoes for men</h6>
+                    </a>
+                </div>
+                <div>
+                    <div class="heart_block"><i style="font-size:15px" class='far  fa-heart mt-1 wish_on_product'></i>
+                    </div>
+                    <!--  <div class="quick_view_block"><i style="font-size:15px" class='fas fa-arrows-alt mt-1 wish_on_product'></i></div>--->
+                    <a href="grid_view.html">
+                        <img class="col-lg-12 principale_grid_image" src="assets/img/gridy2.jpg" alt="">
+                    </a>
+                    <div class="row mt-3 twopx-gutter">
+                        <a href="grid_view.html" class="col-lg-3 col-3 col-sm-3"><img class="col-lg-11 miniature_grid"
+                                src="assets/img/miniature_grid/270-1.jpg" alt=""></a>
+                        <a href="grid_view.html" class="col-lg-3 col-3 col-sm-3"><img class="col-lg-11 miniature_grid"
+                                src="assets/img/miniature_grid/270-2.jpg" alt=""></a>
+                        <h6 class="ml-3 sub_title_grid_element txt_color_shows">2 Colors</h6>
+                    </div>
+                    <a href="">
+                        <h3 class="mt-3 ml-3" style="font-size: 20px;">Nike Air Max 270</h3>
+                        <h6 class="ml-3 sub_title_grid_element">Shoes for men</h6>
+                    </a>
+                </div>
+                <div>
+                    <div class="heart_block"><i style="font-size:15px" class='far  fa-heart mt-1 wish_on_product'></i>
+                    </div>
+                    <!--  <div class="quick_view_block"><i style="font-size:15px" class='fas fa-arrows-alt mt-1 wish_on_product'></i></div>--->
+                    <a href="grid_view.html">
+                        <img class="col-lg-12 principale_grid_image" src="assets/img/gridy4.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <h3 class="mt-3 ml-3" style="font-size: 20px;">Nike Air Force 1 React</h3>
+                        <h6 class="ml-3 sub_title_grid_element">Shoes for men</h6>
+                    </a>
+                </div>
+                <div>
+                    <div class="heart_block"><i style="font-size:15px" class='far  fa-heart mt-1 wish_on_product'></i>
+                    </div>
+                    <!--  <div class="quick_view_block"><i style="font-size:15px" class='fas fa-arrows-alt mt-1 wish_on_product'></i></div>--->
+                    <a href="grid_view.html">
+                        <img class="col-lg-12 principale_grid_image" src="assets/img/gridy5.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <h3 class="mt-3 ml-3" style="font-size: 20px;">Nike Court Vintage Premium</h3>
+                        <h6 class="ml-3 sub_title_grid_element">Shoes for men</h6>
+                    </a>
+                </div>
+                <div>
+                    <div class="heart_block"><i style="font-size:15px" class='far  fa-heart mt-1 wish_on_product'></i>
+                    </div>
+                    <!--  <div class="quick_view_block"><i style="font-size:15px" class='fas fa-arrows-alt mt-1 wish_on_product'></i></div>-->
+                    <a href="">
+                        <img class="col-lg-12 principale_grid_image" src="assets/img/gridy3.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <h3 class="mt-3 ml-3" style="font-size: 20px;">Nike Air Max Plus III</h3>
+                        <h6 class="ml-3 sub_title_grid_element">Shoes for men</h6>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--BUTTO FOR SCROLLING TO TOP-->
+    <button id="myBtn" title="Go to top"><i style="color: white;font-size:18px"
+            class='fas fa-arrow-up mt-1'></i></button>
+    <!---MODAL FOR SEARCH BOX--->
+    <div id="my_own_moda_search" class="my_own_moda_search">
+        <!-- Modal content -->
+        <div>
+            <span class="close close_modal_search">&times;</span>
+        </div>
+        <div class="modal-content">
+            <div>
+                <div class="row">
+                    <input type="text" placeholder="Search..." class="txt_search_home2 col-lg-12 col-12">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="first_block">
+            <div>
+                <h6 style="color:#40423c;text-transform:uppercase">Our Story </h6>
+                <p class="text-light">Get now free <span style="text-decoration: underline;">20%</span> discount for
+                    all products on your first order</p>
+                <div class="follow_sub">
+                    <div><input type="text" placeholder="Email address" class="txt_email_footer special_txt"
+                            name="email_footer" id=""></div>
+                    <div>
+                        <div class="btn_more_show" style="background-color:#01FF70;; color:white">Sign Up</div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h6 style="color: #40423c;text-transform:uppercase">Quick Contact </h6>
+                <p class="text-light">If you have questions, please use our 24-hour helpline</p>
+                <div class="number_blcok_footer">
+                    <div>
+                        <i style="color:white;font-size:20px" class="fa fa-mobile" aria-hidden="true"></i>
+                    </div>
+                    <div>
+                        <span class="text-light ml-2">760 398-3535</span>
+                    </div>
+
+                </div>
+            </div>
+            <div>
+                <h6 style="color: #40423c;text-transform:uppercase;">Follow Us</h6>
+                <div>
+                    <div class="follow_sub">
+                        <div><i style="color:white;font-size:20px" class="fa fa-facebook-square" aria-hidden="true"></i>
+                        </div>
+                        <div><i style="color:white;font-size:20px" class="fa fa-instagram" aria-hidden="true"></i></div>
+                        <div><i style="color:white;font-size:20px" class="fa fa-pinterest" aria-hidden="true"></i></div>
+                    </div>
+
+                    <div class="block_payment_method mt-2">
+                        <div><i style="color:white;font-size:20px" class="fa fa-paypal" aria-hidden="true"></i></div>
+                        <div>
+                            <i style="color:white;font-size:20px" class="fa fa-cc-visa"></i>
+                        </div>
+                        <div>
+                            <i style="color:white;font-size:20px" class="fa fa-cc-mastercard"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="second_block mt-5">
+            <div class="first_second_block">
+                <div style="display: block;">
+                    <h3 class="title_first_second_block">Categorie</h3>
+                    <a href="#">Bridgal Jewelry</a>
+                    <a href="#">Rings</a>
+                    <a href="#">Women</a>
+                    <a href="#">Man</a>
+                    <a href="#">Children</a>
+                    <a href="#">Watches</a>
+                </div>
+                <div>
+                    <h3 class="title_first_second_block">Services</h3>
+                    <a href="#">Jewelry Repair</a>
+                    <a href="#">Watch Repair </a>
+                    <a href="#">Custom Jewelry</a>
+                    <a href="#">Ear Piercing </a>
+                    <a href="#">Jewelry Warranty</a>
+                </div>
+                <div>
+                    <h3 class="title_first_second_block">Apply For Credit </h3>
+                    <a href="#">Credit Request Form</a>
+                    <a href="#">Acima</a>
+                    <a href="#">Synchrony</a>
+                </div>
+                <div>
+                    <h3 class="title_first_second_block">Contact Us</h3>
+                    <a href="#">Location</a>
+                    <a href="#">Contact Form</a>
+                    <a href="#">Support</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">Children</a>
+                    <a href="#">Blog</a>
+                </div>
+            </div>
+            <div class="second_second_block">
+                <div class="mt-4">
+                    <a href="#">Term & Conditions</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Cookies</a>
+                </div>
+            </div>
+        </div>
+        <h3 class="text-center" style="font-size: 15px; color:#40423c;">Copyright © 2020 by Sweava. All Rights Reserved
+        </h3>
+    </footer>
+    <div class="loading_space d-flex justify-content-center align-items-center">
+        <div class="loading_space_child">
+            <div>
+                <img class="" src="assets/img/logo.svg" alt="">
+            </div>
+            <div>
+                <p class="text-center mt-2" style="letter-spacing: 1px;">Loading Please Wait</p>
+            </div>
+            <div style="margin-left: 120px;">
+                <p class="loader align-self-center"></p>
+            </div>
+
+        </div>
+    </div>
+    <style>
+        .others_images {
+            height: 30px;
+
+            border-style: solid;
+            border-width: 1px;
+            border-radius: 50%;
+        }
+
+        .size_boxZ {
+            border-style: solid;
+            padding-left: 10px;
+            padding-right: 10px;
+            border-width: 1px;
+            vertical-align: center;
+        }
+
+        .select .select_content {
+            background-color: white;
+            color: #666;
+            width: 100%;
+        }
+
+        .first_select_element {
+            border-radius: 30px;
+            border-color: white;
+            background-color: white;
+            color: #666;
+            text-indent: 5px;
+            box-shadow: none;
+        }
+
+        .btn_more_show {
+            border-radius: 30px;
+            padding: 12px;
+            width: 100%;
+        }
+
+        @media screen and (max-width: 992px) {
+            .accordion_title {
+                background-color: white;
+                padding: 10px;
+                color: black;
+                margin-top: 10px;
+                box-shadow: none;
+                text-transform: uppercase;
+
+            }
+        }
+    </style>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/carousel/owlcarousel/owl.carousel.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/carousel/custom.js"></script>
+    <script src="assets/js/carousel/big.js"></script>
+    <script src="assets/js/carousel/my_own_carou.js"></script>
+    <script src="assets/css/accordion/main.js"></script>
+    <script src="assets/js/product_detail_2.js"></script>
+
+</body>
+
+</html>
