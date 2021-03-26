@@ -1416,7 +1416,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 320px) {
     .logo_other {
         object-fit: contain;
         width     : 180px;
