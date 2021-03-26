@@ -280,7 +280,7 @@ input {
 
 @media screen and (max-width: 360px) {
     .main_grid_view_box>div {
-        width: 100%;
+        width: 50%;
     }
 
 
