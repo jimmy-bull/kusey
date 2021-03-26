@@ -284,10 +284,12 @@ input {
     }
 .reduce_show_box {
     font-size       : 10px;
+    padding         : 1px 5px 1px 5px;
 }
 
 .show_new_box {
     font-size       : 10px;
+    padding         : 1px 5px 1px 5px;
 }
 
 }
