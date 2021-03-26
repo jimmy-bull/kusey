@@ -1263,7 +1263,9 @@ footer {
     .sub_titltitle3_store {
         bottom: -40px !important;
     }
-
+    .latest_news{
+        margin-top:50px;
+    }
 }
 
 .to_show_on_tabletteANDphone {
