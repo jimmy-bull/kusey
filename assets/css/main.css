@@ -1415,3 +1415,10 @@ footer {
         cursor          : pointer;
     }
 }
+
+@media screen and (max-width: 360px) {
+    .logo_other {
+        object-fit: contain;
+        width     : 180px;
+    }
+}
