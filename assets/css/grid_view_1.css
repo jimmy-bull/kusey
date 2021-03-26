@@ -282,6 +282,12 @@ input {
     .main_grid_view_box>div {
         width: 50%;
     }
+.reduce_show_box {
+    font-size       : 10px;
+}
 
+.show_new_box {
+    font-size       : 10px;
+}
 
 }
