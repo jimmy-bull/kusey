@@ -139,7 +139,7 @@
 
 .reduce_show_box {
     position        : absolute;
-    box-shadow      : 0 10px 15px rgba(25, 25, 25, 0.1);
+   /* box-shadow      : 0 10px 15px rgba(25, 25, 25, 0.1);*/
     border-radius   : 10%;
     left            : 20px;
     top             : 20px;
@@ -152,7 +152,7 @@
 
 .show_new_box {
     position        : absolute;
-    box-shadow      : 0 10px 15px rgba(25, 25, 25, 0.1);
+  /*  box-shadow      : 0 10px 15px rgba(25, 25, 25, 0.1);*/
     border-radius   : 10%;
     left            : 70px;
     top             : 20px;
