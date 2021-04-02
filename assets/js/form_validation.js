@@ -11,6 +11,22 @@ $('.btn_submit_contact').click(function (e) {
         number_verify = 0;
     }
 
+    if ($('#name_txt_contact').val().trim() != "") {
+        $('#name_txt_contact').siblings().hide();
+        number_verify = 1;
+    } else {
+        $('#name_txt_contact').siblings().show();
+        number_verify = 0;
+    }
+
+    if ($('#message_txt_contact').val().trim() != "") {
+        $('#message_txt_contact').siblings().hide();
+        number_verify = 1;
+    } else {
+        $('#message_txt_contact').siblings().show();
+        number_verify = 0;
+    }
+
     if (number_verify == 1) {
         Swal.fire({
             position: 'center',
