@@ -1,6 +1,6 @@
 
 $('.error_txt').hide()
-let email_validator_regex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+let email_validator_regex = new RegExp(/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/);
 $('.btn_submit_contact').click(function (e) {
     if (email_validator_regex.test($('#email_txt_contact').val())) {
         alert('ok')
