@@ -11,6 +11,10 @@ body {
 
 }
 
+.error_txt {
+    color: orangered;
+}
+
 .fa-grip-lines_block i {
     font-size: 15px;
 }
@@ -1029,16 +1033,17 @@ footer {
     margin-top: 100px;
 }
 
-.loading_space {  
+.loading_space {
     position        : fixed;
     background-color: white;
     z-index         : 1000000000000000000000000000000000;
     width           : 0;
     top             : 0;
     height          : 100%;
-   
+
 }
-.loading_space >div{
+
+.loading_space>div {
     display: none;
 }
 
@@ -1263,8 +1268,9 @@ footer {
     .sub_titltitle3_store {
         bottom: -40px !important;
     }
-    .latest_news{
-        margin-top:50px;
+
+    .latest_news {
+        margin-top: 50px;
     }
 }
 
