@@ -1,7 +1,5 @@
 
-let regexNumber;
-let regex;
-
+$('.error_txt').hide()
 $('.btn_submit_contact').click(function (e) {
     Swal.fire({
         position: 'center',
