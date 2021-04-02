@@ -894,12 +894,12 @@ footer {
 }
 
 .block_txt_name_email>div>input {
-    border-width: 2px;
+    border-width: 1px;
     border-style: solid;
     border-color: #ccc;
     color       : #666 !important;
     padding     : 10px;
-    margin: 2px;
+    margin: 1px;
 }
 
 .carousel_home_5 {
