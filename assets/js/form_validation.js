@@ -21,7 +21,7 @@ $('.btn_submit_contact').click(function (e) {
         $('#message_txt_contact').siblings().show();
     }
 
-    if (email_validator_regex.test($('#email_txt_contact').val()) || $('#message_txt_contact').val().trim() != "" || $('#name_txt_contact').val().trim() != "") {
+    if (email_validator_regex.test($('#email_txt_contact').val()) && $('#message_txt_contact').val().trim() != "" && $('#name_txt_contact').val().trim() != "") {
         Swal.fire({
             position: 'center',
             icon: 'success',
