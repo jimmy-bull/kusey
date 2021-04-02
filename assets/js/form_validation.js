@@ -27,7 +27,7 @@ $('.btn_submit_contact').click(function (e) {
             icon: 'success',
             title: 'Your message has been sent successfully!',
             showConfirmButton: false,
-            timer: 1500
+            timer: 5000
         })
     }
     //name_txt_contact email_txt_contact message_txt_contact
