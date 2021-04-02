@@ -31,7 +31,7 @@ $('.btn_submit_contact').click(function (e) {
         })
         setTimeout(() => {
             window.location.href = "index.html"
-        }, 2000);
+        }, 1600);
     }
     //name_txt_contact email_txt_contact message_txt_contact
 
